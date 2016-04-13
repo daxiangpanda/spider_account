@@ -9,14 +9,25 @@ start_page = 0
 result = []
 
 def process(soup):
-    for i in soup.findall('table',cellpadding='0'):
-        tag_info = i.find('tbody')
-
-
+    result = []
+    print soup.find_all('table',cellpadding='0')
+    for i in soup.find_all('table',cellpadding='0'):
+        print i
+        position = i.find('a',style = 'font-weight').text
+        position_link = i.find('a',style = 'font-weight')['href']
+        company = i.find('td',class_='gsmc').find('a').string
+        company_link = i.find('td',class_='gsmc').find('a')['href']
+        wage = i.find('td',class_='zwyx').string
+        location = i.find('td',class_='gzdd').string
+        result.append([position,position_link,company,company_link,wage,location])
+    return result
 while True:
     print '正在爬取第{0}页'.format(start_page)
     soup = urlfunc.url_open(base_url+str(start_page))
-    result.append(process(soup))
+    print soup
+    with open(str(start_page)+'.html','w') as f:
+        f.write(str(soup))
+    # print process(soup)
     start_page+=1
     time_sleep = random.random()*5
     print '爬的好累，我休息{0}秒'.format(time_sleep)

@@ -28,5 +28,6 @@ def url_open(url):
     # urllib2.install_opener(opener)
     response = urllib2.urlopen(req)
     html = response.read()
+    soup = BeautifulSoup(html)
     #print html
-    return html
+    return soup
