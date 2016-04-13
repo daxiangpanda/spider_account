@@ -2,6 +2,7 @@
 # encoding: utf-8
 import urllib2
 import random
+import time
 from bs4 import BeautifulSoup
 
 def url_open(url):
@@ -26,8 +27,19 @@ def url_open(url):
     # proxy_support = urllib2.ProxyHandler({'http':proxy})
     # opener = urllib2.build_opener(proxy_support)
     # urllib2.install_opener(opener)
-    response = urllib2.urlopen(req)
+    num_error=0
+    while True:
+        try:
+            response = urllib2.urlopen(req)
+            num_error=0
+            break
+        except urllib2.URLError:
+            num_error+=1
+            print u'发生第{0}次错误，正在重新爬取'.format(str(num_error))
+            time.sleep(1)
+            continue
     html = response.read()
     soup = BeautifulSoup(html)
     #print html
     return soup
+
