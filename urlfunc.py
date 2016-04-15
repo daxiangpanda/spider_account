@@ -4,7 +4,8 @@ import urllib2
 import random
 import time
 from bs4 import BeautifulSoup
-
+import sys
+sys.setrecursionlimit(1000000)
 def url_open(url):
     req = urllib2.Request(url)
     header1 = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5'
@@ -39,7 +40,7 @@ def url_open(url):
             time.sleep(random.random())
             continue
     html = response.read()
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html,"html.parser")
     #print html
     return soup
 
