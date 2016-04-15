@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>职位搜索引导</title>
+<link href="http://js.51jobcdn.com/in/css/search/search_result_guide.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://js.51jobcdn.com/in/js/2009/jQuery.js"></script>
+<script type="text/javascript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6. 
+{ 
+    $("#dw_step2").css("display","block");
+    $("#dw_step3").css("display","block");
+    $("#dw_step4").css("display","block");
+    $("#dw_step5").css("display","block");
+
+    init(); 
+}
+
+    function init(){		
+		$('#dw_step1').css('display','block');
+		$('#dw_step2,#dw_step3,#dw_step4,#dw_step5').css({'display':'none','opacity':0});
+        
+        $("#dw_step1 .next").click(
+            function(){
+				$(document).scrollTop(20);
+                $('#dw_step2').css('display','block').animate({'opacity':'1'},300);
+                $('#dw_step1').css({'display':'none','opacity':0});						
+            }
+        );
+        $("#dw_step2 .next").click(
+            function(){
+                $('#dw_step3').css('display','block').animate({'opacity':'1'},300);
+                $('#dw_step2').css({'display':'none','opacity':0});	
+            }
+        );
+		$("#dw_step3 .next").click(
+            function(){
+				$(document).scrollTop(740);
+				$('#dw_close').css('top',840);
+				$('#dw_step4_bg').show();
+                $('#dw_step4').css('display','block').animate({'opacity':'1'},300);
+                $('#dw_step3').css({'display':'none','opacity':0});	
+            }
+        );
+		$("#dw_step4 .next").click(
+            function(){
+				$(document).scrollTop(180);
+				$('#dw_close').css('top',230);
+				$('#dw_step4_bg').hide();
+                $('#dw_step5').css('display','block').animate({'opacity':'1'},300);
+                $('#dw_step4').css({'display':'none','opacity':0});	
+            }
+        );
+        
+    }
+</script>
+</head>
+<body onload="correctPNG();" style="overflow:hidden;">
+<div id="dwpop">
+	<div id="dw_step4_bg"></div>
+	<div id="dwwp">
+		<a id="dw_close" onfocus="blur()" href="http://search.51job.com/list/090200%252C00,000000,0000,00,9,99,%25B3%25F6%25C4%25C9,0,1.html?lang=c&stype=2&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&confirmdate=9&dibiaoid=0"><img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_close.png" alt="" /></a>
+		<div id="dw_step1" class="dw_stepbox">
+			<img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_step1.png" alt="" />
+			<span class="next"></span>
+		</div>
+		
+		<div id="dw_step2" class="dw_stepbox">
+			<img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_step2.png" alt="" />
+			<span class="next"></span>
+		</div>
+		
+		<div id="dw_step3" class="dw_stepbox">
+			<img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_step3.png" alt="" />
+			<span class="next"></span>
+		</div>
+		
+		<div id="dw_step4" class="dw_stepbox">
+			<img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_step4.png" alt="" />
+			<span class="next"></span>
+		</div>
+		
+		<div id="dw_step5" class="dw_stepbox">
+			<img src="http://img01.51jobcdn.com/im/2009/search/guide/dw_step5.png" alt="" />
+			<a onfocus="blur()" href="http://search.51job.com/list/090200%252C00,000000,0000,00,9,99,%25B3%25F6%25C4%25C9,0,1.html?lang=c&stype=2&postchannel=0000&workyear=99&cotype=99&degreefrom=99&jobterm=99&companysize=99&lonlat=0%2C0&radius=-1&ord_field=0&list_type=0&confirmdate=9&dibiaoid=0" class="next"></a>
+		</div>
+	</div>
+</div>
+
+
+<div id="container" onclick="document.getElementById('pageOverlay').style.visibility = 'visible'" >
+    <div class="stp1"></div>
+    <div class="stp2"></div>
+    <div class="bg5"></div>
+</div>
+<div id="pageOverlay"></div>
+</body>
+</html>

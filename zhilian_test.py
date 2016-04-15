@@ -32,13 +32,17 @@ def process(soup):
     return result
 
 
-def crawler(start_page):
+def crawler(keyword,start_page):
+    base_url = 'http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&sm=0'
+
     result = []
     while True:
         print '正在爬取第{0}页'.format(start_page)
         resoup = 0
-        soup = urlfunc.url_open(base_url+str(start_page))
-        if 'strong' in str(soup):
+        url = base_url+'&kw='+urllib2.quote(keyword)+'&p='+str(start_page)
+        soup = urlfunc.url_open(url)
+        print url
+        if '对不起，暂时无符合您条件的职位' in str(soup):
             print u'爬取完毕。'
             return result
         print len(str(soup))
@@ -54,10 +58,10 @@ def crawler(start_page):
                 resoup=0
                 break
                     # print soup
-        with open('html\\'+str(start_page)+'.html','w') as f:
+        with open('html\\'+keyword.decode('utf-8')+str(start_page)+'.html','w') as f:
             f.write(str(soup))
         subres = process(soup)
-        with open('pick\\'+str(start_page)+'.pick','w') as f:
+        with open('pick\\'+keyword.decode('utf-8')+str(start_page)+'.pick','w') as f:
             f.write(pickle.dumps(process(soup)))
         print subres
         result.append(subres)
@@ -68,9 +72,7 @@ def crawler(start_page):
 
 
 if __name__ == '__main__':
-    base_url = 'http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%' \
-               'E6%88%90%E9%83%BD&kw=%E4%BC%9A%E8%AE%A1&sm=0&isfilter' \
-               '=0&fl=801&isadv=0&sg=e1b9f5c9a6c54d9f8fab2a38dece44aa&p='
+    keyword = '算法工程师'
     start_page = 1
-    crawler(start_page)
+    crawler(keyword,start_page)
 
