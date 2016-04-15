@@ -36,7 +36,7 @@ def url_open(url):
         except urllib2.URLError:
             num_error+=1
             print u'发生第{0}次错误，正在重新爬取'.format(str(num_error))
-            time.sleep(1)
+            time.sleep(random.random())
             continue
     html = response.read()
     soup = BeautifulSoup(html)
