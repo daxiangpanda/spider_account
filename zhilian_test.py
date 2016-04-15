@@ -6,7 +6,8 @@ import time
 import random
 import urllib2
 import cPickle as pickle
-
+import socket
+socket.setdefaulttimeout(10)
 
 
 def process(soup):
@@ -30,13 +31,15 @@ def process(soup):
         result.append([position,position_link,company,company_link,wage,location])
     return result
 
+
 def crawler(start_page):
     result = []
     while True:
         print '正在爬取第{0}页'.format(start_page)
         resoup = 0
         soup = urlfunc.url_open(base_url+str(start_page))
-        if u'对不起，暂时无符合您条件的职位' in soup:
+        if 'strong' in str(soup):
+            print u'爬取完毕。'
             return result
         print len(str(soup))
         while True:
@@ -64,8 +67,10 @@ def crawler(start_page):
         time.sleep(time_sleep)
 
 
-
 if __name__ == '__main__':
-    base_url = 'http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&kw=%E4%BC%9A%E8%AE%A1&sm=0&isfilter=0&fl=801&isadv=0&sg=e1b9f5c9a6c54d9f8fab2a38dece44aa&p='
+    base_url = 'http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%' \
+               'E6%88%90%E9%83%BD&kw=%E4%BC%9A%E8%AE%A1&sm=0&isfilter' \
+               '=0&fl=801&isadv=0&sg=e1b9f5c9a6c54d9f8fab2a38dece44aa&p='
     start_page = 1
     crawler(start_page)
+
