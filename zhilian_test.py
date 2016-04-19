@@ -33,7 +33,7 @@ def crawler(keyword,start_page):
 
     result = []
     while True:
-        print '正在爬取第{0}页'.format(start_page)
+        print '正在爬取{0}行业的第{1}页'.format(keyword,start_page)
         resoup = 0
         url = base_url+'&kw='+urllib2.quote(keyword)+'&p='+str(start_page)
         soup = urlfunc.url_open(url)
@@ -66,6 +66,6 @@ def crawler(keyword,start_page):
 
 
 if __name__ == '__main__':
-    keyword = '算法工程师'
-    start_page = 1
-    crawler(keyword,start_page)
+    keyword = ['算法工程师','会计']
+    start_page = [1]*len(keyword)
+    map(crawler,keyword,start_page)
