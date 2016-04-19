@@ -49,26 +49,26 @@
 </div>
 <!--登录弹窗-->
 <div id="loginNwid">
-<h2>
+<h2>
 				登录<a href="#" id="loginNcolse"><img border="0" src="http://img01.zhaopin.cn/new2011/head/images/close0722.png"/></a></h2>
 <div class="loginNForm">
 <form action="#" id="">
 <input class="loginNFormInput" id="loginname" name="nloginname" placeholder="输入手机号/邮箱" type="text"/>
 <div class="errorbox">
-<div class="errorstyle" id="error3">
+<div class="errorstyle" id="error3">
 							请输入正确的手机号或邮箱！</div>
-<div class="errorstyle" id="error5">
+<div class="errorstyle" id="error5">
 							用户名不存在！</div>
 </div>
 <input class="loginNFormInput" id="password" name="npassword" placeholder="输入密码" type="password"/>
 <div id="yanzm" style="display:none;margin-top:20px">
 <span class="logval"><input class="validCode loginNFormInput" id="newvalidate" maxlength="4" name="newvalidate" placeholder="输入验证码" required="" size="4" tabindex="3" type="text"/></span><a href="#" id="hrimg" onclick="ZPIDC.applyjob.freshValidate('newvimg');"><img border="0" height="23" id="newvimg" src="" title="看不清？点击更换" width="63"/><span>换一张</span></a></div>
 <div class="errorbox">
-<div class="errorstyle" id="error4">
+<div class="errorstyle" id="error4">
 							请正确输入密码！</div>
-<div class="errorstyle" id="error1">
+<div class="errorstyle" id="error1">
 							请输入用户名和密码！</div>
-<div class="errorstyle" id="error2">
+<div class="errorstyle" id="error2">
 							请正确输入验证码！</div>
 </div>
 <input class="loginNFormBtn" type="button"/> <input checked="checked" class="loginNformcb" type="checkbox"/> 自动登录 <a href="http://passport.zhaopin.com/findpassword/email/step1" target="_blank">忘记密码</a></form>
@@ -84,87 +84,87 @@
 </div>
 <script src="http://img02.zhaopin.cn/2014/common/js/zpidc.utils.js"></script>
 <script src="http://img01.zhaopin.cn/2014/common/js/zpidc.login.js"></script>
-<script type="text/javascript">
-if (document.all){
-window.attachEvent('onload',widfn);
-}
-else{
-window.addEventListener('load', widfn,false);
-}
-function  widfn(){
-    (function(){
-        var loginNcolse = document.getElementById("loginNcolse") ;
-        var loginNwid = document.getElementById("loginNwid") ;
-        $(document).click(function(e){
-            if ($(e.target).closest("#loginNwid").length || $(e.target).closest("#person-service").length ){
-                return;
-            }
-            loginNwid.style.display = 'none' ;
-        });
-
-        loginNcolse.onclick = function(){
-            loginNwid.style.display = 'none' ;
-        }
-        ;$(".loginNFormInput").focus(function(){
-            $(".errorstyle").hide();
-        });
-        if(document.all){
-            $("#loginname").val("输入手机号/邮箱");
-            $("#loginname").focus(function(){
-                if($(this).val() == '输入手机号/邮箱'){$(this).val('');}
-            }).blur(function(){
-                if($(this).val() == ''){$(this).val('输入手机号/邮箱');}
-            });
-            function passwordfn(){
-                if($("#password").val() == ''){
-                    if($("#passwordtxt").length<1){$("#loginNwid").append('<div id="passwordtxt">输入密码</div>');}
-                    $("#passwordtxt").show();
-                    $("#passwordtxt").focus(function(){
-                        $("#passwordtxt").hide();
-                        $("#password").focus();
-                    });
-                }
-            }
-            passwordfn();
-            $("#password").focus(function(){$("#passwordtxt").hide()}).blur(passwordfn);
-        }
-    })();
-    window.zlzpUtils = {};
-    (function(i) {
-        i.cookie = function(i, m, q) {
-            if (1 < arguments.length && "[object Object]" !== "" + m) {
-                q = jQuery.extend({},
-                q);
-                if (null === m || void 0 === m) q.expires = -1;
-                if ("number" === typeof q.expires) {
-                    var h = q.expires,
-                    k = q.expires = new Date;
-                    k.setDate(k.getDate() + h);
-                }
-                m = "" + m;
-                return document.cookie = [encodeURIComponent(i), "=", q.raw ? m: encodeURIComponent(m), q.expires ? "; expires=" + q.expires.toUTCString() : "", q.path ? "; path=" + q.path: "", q.domain ? "; domain=" + q.domain: "", q.secure ? "; secure": ""].join("");
-            }
-            q = m || {};
-            k = q.raw ?
-            function(h) {
-                return h
-            }: decodeURIComponent;
-            return (h = RegExp("(?:^|; )" + encodeURIComponent(i) + "=([^;]*)").exec(document.cookie)) ? k(h[1]) : null;
-        }
-    })(jQuery);
-    //初始化头
-    ZPIDC.applyjob.LoginInHeadShowHtml();
-    $("#person-service").click(function(){
-        $("#loginNwid").show();
-        try{ recordOutboundLink(this,'addnewlink','personlogin');}catch(e){}
-    });
-    $(".loginNFormBtn").click(function(){
-        ZPIDC.applyjob.LoginInHead();
-    });
-    $("#personcheckout").click(function(){
-        ZPIDC.applyjob.LoginoutHeadHtml();
-    });
-}
+<script type="text/javascript">
+if (document.all){
+window.attachEvent('onload',widfn);
+}
+else{
+window.addEventListener('load', widfn,false);
+}
+function  widfn(){
+    (function(){
+        var loginNcolse = document.getElementById("loginNcolse") ;
+        var loginNwid = document.getElementById("loginNwid") ;
+        $(document).click(function(e){
+            if ($(e.target).closest("#loginNwid").length || $(e.target).closest("#person-service").length ){
+                return;
+            }
+            loginNwid.style.display = 'none' ;
+        });
+
+        loginNcolse.onclick = function(){
+            loginNwid.style.display = 'none' ;
+        }
+        ;$(".loginNFormInput").focus(function(){
+            $(".errorstyle").hide();
+        });
+        if(document.all){
+            $("#loginname").val("输入手机号/邮箱");
+            $("#loginname").focus(function(){
+                if($(this).val() == '输入手机号/邮箱'){$(this).val('');}
+            }).blur(function(){
+                if($(this).val() == ''){$(this).val('输入手机号/邮箱');}
+            });
+            function passwordfn(){
+                if($("#password").val() == ''){
+                    if($("#passwordtxt").length<1){$("#loginNwid").append('<div id="passwordtxt">输入密码</div>');}
+                    $("#passwordtxt").show();
+                    $("#passwordtxt").focus(function(){
+                        $("#passwordtxt").hide();
+                        $("#password").focus();
+                    });
+                }
+            }
+            passwordfn();
+            $("#password").focus(function(){$("#passwordtxt").hide()}).blur(passwordfn);
+        }
+    })();
+    window.zlzpUtils = {};
+    (function(i) {
+        i.cookie = function(i, m, q) {
+            if (1 < arguments.length && "[object Object]" !== "" + m) {
+                q = jQuery.extend({},
+                q);
+                if (null === m || void 0 === m) q.expires = -1;
+                if ("number" === typeof q.expires) {
+                    var h = q.expires,
+                    k = q.expires = new Date;
+                    k.setDate(k.getDate() + h);
+                }
+                m = "" + m;
+                return document.cookie = [encodeURIComponent(i), "=", q.raw ? m: encodeURIComponent(m), q.expires ? "; expires=" + q.expires.toUTCString() : "", q.path ? "; path=" + q.path: "", q.domain ? "; domain=" + q.domain: "", q.secure ? "; secure": ""].join("");
+            }
+            q = m || {};
+            k = q.raw ?
+            function(h) {
+                return h
+            }: decodeURIComponent;
+            return (h = RegExp("(?:^|; )" + encodeURIComponent(i) + "=([^;]*)").exec(document.cookie)) ? k(h[1]) : null;
+        }
+    })(jQuery);
+    //初始化头
+    ZPIDC.applyjob.LoginInHeadShowHtml();
+    $("#person-service").click(function(){
+        $("#loginNwid").show();
+        try{ recordOutboundLink(this,'addnewlink','personlogin');}catch(e){}
+    });
+    $(".loginNFormBtn").click(function(){
+        ZPIDC.applyjob.LoginInHead();
+    });
+    $("#personcheckout").click(function(){
+        ZPIDC.applyjob.LoginoutHeadHtml();
+    });
+}
 </script>
 <div class="adbox_1209" style="margin:5px auto;display:none;">公告: 为了提供更好的服务，智联招聘网站将于12月26日 21:00-24:00进行系统优化升级，届时部分功能可能会受到影响，请见谅。<img alt="关闭" onclick="this.parentNode.style.display='none'" src="http://img03.zhaopin.cn/2012/other/lmadjust/images/adlm_5.png"/></div>
 <div class="main" style="position: relative;">
@@ -242,12 +242,12 @@ function  widfn(){
 <div class="newlist_list1" style="">
 <div class="clearfix">
 <div class="search_newlist_topleft1 fl">
-<span class="newlist_topleft_zwlb1">
-                        职位类别
+<span class="newlist_topleft_zwlb1">
+                        职位类别
                     </span>
 </div>
 <div class="search_newlist_topmain2 fl" id="search_jobtype_tag">
-<a class="xzbold" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1">不限</a>&gt; <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160000">软件/互联网开发/系统集成(<font color="red">56</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=5001000">电信/通信技术开发及应用(<font color="red">9</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160100">电子/电器/半导体/仪器仪表(<font color="red">3</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=300200">其他(<font color="red">3</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160200">互联网产品/运营管理(<font color="red">1</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=1050000">高级管理(<font color="red">1</font>)</a>
+<a class="xzbold" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1">不限</a>&gt; <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160000">软件/互联网开发/系统集成(<font color="red">54</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=5001000">电信/通信技术开发及应用(<font color="red">10</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160100">电子/电器/半导体/仪器仪表(<font color="red">3</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=300200">其他(<font color="red">3</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=160200">互联网产品/运营管理(<font color="red">1</font>)</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;bj=1050000">高级管理(<font color="red">1</font>)</a>
 </div>
 <div class="search_newlist_toplast2 fr" id="jobtypeswitch" style="display:none">
 <a href="javascript:;"></a>
@@ -258,8 +258,8 @@ function  widfn(){
 <div class="newlist_list1" style="display:none">
 <div class="clearfix">
 <div class="search_newlist_topleft1 fl">
-<span class="newlist_topleft_zwlb1">
-                        工作地区
+<span class="newlist_topleft_zwlb1">
+                        工作地区
                     </span>
 </div>
 <div class="search_newlist_topmain1 fl">
@@ -270,8 +270,8 @@ function  widfn(){
 <div class="newlist_list1 " style="">
 <div class="clearfix">
 <div class="search_newlist_topleft1 fl">
-<span class="newlist_topleft_zwlb1">
-                        热门地区
+<span class="newlist_topleft_zwlb1">
+                        热门地区
                     </span>
 </div>
 <div class="search_newlist_topmain1 fl" style="width:710px;height:34px"><a class="xzbold fl" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1">不限</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2117">郫县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2380">都江堰市</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2119">大邑县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2121">新津县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2379">彭州市</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2107">青羊区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2111">成华区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2118">金堂县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2116">双流县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2378">崇州市</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2114">新都区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2377">邛崃市</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2108">锦江区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2109">金牛区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2120">蒲江县</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2381">高新区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2110">武侯区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2112">龙泉驿</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2113">青白江区</a><a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isfilter=1&amp;p=1&amp;re=2115">温江区</a></div><div class="search_newlist_toplast1 fr" style="display:block;"><a href="javascript:;"></a></div>
@@ -290,8 +290,8 @@ function  widfn(){
 <div class="newlist_list1 newlist_metro" style="display: none">
 <div class="clearfix">
 <div class="search_newlist_topleft1 fl">
-<span class="newlist_topleft_zwlb1">
-                            地铁沿线
+<span class="newlist_topleft_zwlb1">
+                            地铁沿线
                         </span>
 </div>
 <div class="search_newlist_topmain1 fl">
@@ -306,8 +306,8 @@ function  widfn(){
 <div class="newlist_list1" style="">
 <div class="clearfix">
 <div class="search_newlist_topleft1 fl">
-<span class="newlist_topleft_zwlb1">
-                        职位标签
+<span class="newlist_topleft_zwlb1">
+                        职位标签
                     </span>
 </div>
 <div class="search_newlist_topmain1 fl" style="height:34px"><a class="xzbold fl" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1">不限</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10000">五险一金</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10001">年底双薪</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10002">绩效奖金</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10003">年终分红</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10004">股票期权</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10005">加班补助</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10006">全勤奖</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10007">包吃</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10008">包住</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10009">交通补助</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10010">餐补</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10011">房补</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10012">通讯补贴</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10014">带薪年假</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10015">弹性工作</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10016">补充医疗保险</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10017">定期体检</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10018">免费班车</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10019">员工旅游</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10020">高温补贴</a> <a class="" href="/jobs/searchresult.ashx?jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;kw=%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88&amp;isjts=1&amp;isfilter=1&amp;p=1&amp;fjt=10021">节日福利</a> </div><div class="search_newlist_toplast1 fr" style="display:block;"><a href="javascript:;"></a></div>
@@ -342,81 +342,81 @@ function  widfn(){
 </div>
 </div>
 </div>
-<script type="text/javascript">
-        //标签筛选
-        function switchMetro(flag) {
-            $(".tagfilter_metro").removeClass("xzbold");
-            $("#" + flag).addClass("xzbold");
-            $("#" + flag).parents('.newlist_list1').addClass('newlist_list1_zk');
-            $("#" + flag).parents('.newlist_list1').removeClass('newlist_list1');
-            $(".tagfilter_metrostation").hide();
-            $("." + flag).show();
-        }
-
-        function switchTag(url) {
-            window.location = url;
-        }
-
-        $(document).ready(function () {
-            //地铁折叠
-            var metroOpen = $.cookie('metroopen');
-            if (metroOpen == "1") {
-                $('.newlist_metro').show();
-                $('#metroswitch').removeClass("newlist_metroswitchup").addClass("newlist_metroswitchdown");
-            } else {
-                $('.newlist_metro').hide();
-                $('#metroswitch').removeClass("newlist_metroswitchdown").addClass("newlist_metroswitchup");
-            }
-            $('#metroswitch').click(function () {
-                var metroDisplay = $('.newlist_metro').css("display");
-                if (metroDisplay == "none") {
-                    $.cookie('metroopen', '1', { expires: 30, path: '/' });
-                    $('.newlist_metro').slideDown(500);
-                    $(this).removeClass("newlist_metroswitchup").addClass("newlist_metroswitchdown");
-                } else {
-                    $.cookie('metroopen', '0', { expires: 30, path: '/' });
-                    if ($('#c23').val() == "") {
-                        $('.newlist_metro').slideUp(500);
-                        $(this).removeClass("newlist_metroswitchdown").addClass("newlist_metroswitchup");
-                    }
-                    else {
-                        location.href = $("#nometro").attr("href");
-                    }
-                }
-            });
-            //职位类别折叠
-            var jobtype_tag = $("#search_jobtype_tag");
-            if (jobtype_tag.length > 0) {
-                var jobtypeOpen = $.cookie('jobtypeopen');
-                var height = jobtype_tag.css("height").replace("px", "");
-                if (height > 68) {
-                    $("#search_jobtype_tag").next().show();
-                    if (jobtypeOpen == "0" || $('#c6').val() == "")
-                        $("#search_jobtype_tag").css("height", "68px");
-                }
-                else {
-                    $("#search_jobtype_tag").next().hide();
-                }
-            }
-            $('#jobtypeswitch').click(function () {
-                var height = $("#search_jobtype_tag").css("height").replace("px", "");
-                if (height == 68) {
-                    $.cookie('jobtypeopen', '1', { expires: 30, path: '/' });
-                    $("#search_jobtype_tag").css("height", "auto");
-                } else {
-                    $.cookie('jobtypeopen', '0', { expires: 30, path: '/' });
-                    $("#search_jobtype_tag").css("height", "68px");
-                }
-            });
-        })
+<script type="text/javascript">
+        //标签筛选
+        function switchMetro(flag) {
+            $(".tagfilter_metro").removeClass("xzbold");
+            $("#" + flag).addClass("xzbold");
+            $("#" + flag).parents('.newlist_list1').addClass('newlist_list1_zk');
+            $("#" + flag).parents('.newlist_list1').removeClass('newlist_list1');
+            $(".tagfilter_metrostation").hide();
+            $("." + flag).show();
+        }
+
+        function switchTag(url) {
+            window.location = url;
+        }
+
+        $(document).ready(function () {
+            //地铁折叠
+            var metroOpen = $.cookie('metroopen');
+            if (metroOpen == "1") {
+                $('.newlist_metro').show();
+                $('#metroswitch').removeClass("newlist_metroswitchup").addClass("newlist_metroswitchdown");
+            } else {
+                $('.newlist_metro').hide();
+                $('#metroswitch').removeClass("newlist_metroswitchdown").addClass("newlist_metroswitchup");
+            }
+            $('#metroswitch').click(function () {
+                var metroDisplay = $('.newlist_metro').css("display");
+                if (metroDisplay == "none") {
+                    $.cookie('metroopen', '1', { expires: 30, path: '/' });
+                    $('.newlist_metro').slideDown(500);
+                    $(this).removeClass("newlist_metroswitchup").addClass("newlist_metroswitchdown");
+                } else {
+                    $.cookie('metroopen', '0', { expires: 30, path: '/' });
+                    if ($('#c23').val() == "") {
+                        $('.newlist_metro').slideUp(500);
+                        $(this).removeClass("newlist_metroswitchdown").addClass("newlist_metroswitchup");
+                    }
+                    else {
+                        location.href = $("#nometro").attr("href");
+                    }
+                }
+            });
+            //职位类别折叠
+            var jobtype_tag = $("#search_jobtype_tag");
+            if (jobtype_tag.length > 0) {
+                var jobtypeOpen = $.cookie('jobtypeopen');
+                var height = jobtype_tag.css("height").replace("px", "");
+                if (height > 68) {
+                    $("#search_jobtype_tag").next().show();
+                    if (jobtypeOpen == "0" || $('#c6').val() == "")
+                        $("#search_jobtype_tag").css("height", "68px");
+                }
+                else {
+                    $("#search_jobtype_tag").next().hide();
+                }
+            }
+            $('#jobtypeswitch').click(function () {
+                var height = $("#search_jobtype_tag").css("height").replace("px", "");
+                if (height == 68) {
+                    $.cookie('jobtypeopen', '1', { expires: 30, path: '/' });
+                    $("#search_jobtype_tag").css("height", "auto");
+                } else {
+                    $.cookie('jobtypeopen', '0', { expires: 30, path: '/' });
+                    $("#search_jobtype_tag").css("height", "68px");
+                }
+            });
+        })
     </script>
 <!--已选条件、订阅邮箱等功能组-->
 <div class="seach_yx">
-<span class="search_yx_tj">
-        共<em>73</em>个职位满足条件
+<span class="search_yx_tj">
+        共<em>72</em>个职位满足条件
     </span>
-<a class="search_yb" href="javascript:">
-            保存搜索条件
+<a class="search_yb" href="javascript:">
+            保存搜索条件
         </a>
 <font class="search_teshu" id="SearchHistory">
 <a class="search_ybc">已保存(<em id="SearchHistoryCount">0</em>)</a>
@@ -459,9 +459,9 @@ function  widfn(){
 <div>
 <b class="job_read_body_b" style="height: 20px;line-height: 20px;">发送频率：</b>
 <div class="send_rate">
-<input checked="" name="send_rate" type="radio" value="1"/> 1天1次    
-                    <input name="send_rate" type="radio" value="3"/> 3天1次    
-                    <input name="send_rate" type="radio" value="7"/> 7天1次
+<input checked="" name="send_rate" type="radio" value="1"/> 1天1次    
+                    <input name="send_rate" type="radio" value="3"/> 3天1次    
+                    <input name="send_rate" type="radio" value="7"/> 7天1次
                 </div>
 <input name="subscibeCondition" type="hidden" value="算法工程师||801||||||||||"/>
 </div>
@@ -471,224 +471,224 @@ function  widfn(){
 </div>
 </div>
 <script src="/assets/javascript/subscibe-layer.js" type="text/javascript"></script>
-<script type="text/javascript">
-    //   验证码校验
-    var ajaxVlidate;
-    function validate_indent_code(errorFun, succFun) {
-        var indentCode = $("#ident_code");
-        var result = false;
-        if (indentCode.val().replace(/^\s|\s$/g, "") != "") {
-            var url = '/Assist/SubscibeWithNotLogin?operate=checkcode';
-            var params = $('#formSubscibe').serialize();
-            validate_indent = $.ajax({
-                url: url,
-                type: 'post',
-                async: false,
-                data: params,
-                success: function (result) {
-                    var jsonResult = result;
-                    var status = false;
-                    if (jsonResult.Status < 0) {
-                        if (jsonResult.Description == "验证码错误") {
-                            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
-                            $("#randomNews_indent").html("验证码错误");
-                            ident_image_load();
-                            if (errorFun && errorFun instanceof Function) {
-                                errorFun();
-                            }
-                        }
-                    } else if (jsonResult.Status >= 0) {
-                        indentCode.parent().get(0).className = 'inputText1 span_input inputTexts_indent';
-                        $("#randomNews_indent").html("");
-                        if (succFun && succFun instanceof Function) {
-                            succFun();
-                        }
-                    }
-                }
-            });
-        } else {
-            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
-            $("#randomNews_indent").html("请输入验证码");
-            if (errorFun && errorFun instanceof Function) {
-                errorFun();
-            }
-        }
-    }
-    //  验证码重加载
-    function ident_image_load() {
-        var identDom = $('.ident_image').get(0);
-        var timeTamp = +new Date().getTime();
-        identDom.src = "/Assist/GetCaptcha?timeTamp=" + timeTamp;
-    }
-    //  loading状态开始
-    function beg_send_free_book_job() {
-
-        if (emailTemp && emailTemp.checkData($("#email").get(0)) == "0") {
-            $(".input_submit").attr({ onclick: "" })
-            $(".submit_waiting").show();
-            return true;
-        } else {
-            if ($("#email").val() == "") {
-                $("#email").get(0).onblur();
-            }
-            return false;
-        }
-    }
-    //  loading状态结束并且 一秒后关闭弹层
-    function end_send_free_book_job() {
-        $(".input_submit").html("订阅成功");
-        setTimeout(function () {
-            $("#id_job_read_container").hide();
-        }, 1000);
-    }
-    //  form提交方法
-    function subscibe() {
-        var url = '/Assist/SubscibeWithNotLogin';
-        //邮件校验
-        if (ajaxVlidate) {
-            ajaxVlidate.abort();
-        }
-        ajaxVlidate = null;
-        if (!beg_send_free_book_job()) {
-            return false;
-        }
-        $(".input_submit").unbind('click');
-        //验证码校验
-        validate_indent_code(function () {
-            $(".input_submit").bind('click', subscibe);
-            // $(".input_submit").attr({ onclick: "subscibe();" });
-            $(".submit_waiting").hide();
-        }, function () {
-            var params = $('#formSubscibe').serialize();
-            $.ajax({
-                url: url,
-                type: 'post',
-                data: params,
-                success: function (result) {
-                    var jsonResult = result;
-                    $(".submit_waiting").hide();
-                    if (jsonResult.Status < 0) {
-                        //$(".input_submit").attr({ onclick: "subscibe();" });
-                        $(".input_submit").bind('click', subscibe);
-                        if (jsonResult.Description == "验证码错误") {
-                            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
-                            $("#randomNews_indent").html("验证码错误");
-                        } else {
-                            //  其它错误
-                        }
-                        $(".submit_waiting").hide();
-                    } else if (jsonResult.Status >= 0) {
-                        end_send_free_book_job();
-                        ident_image_load();
-                    }
-                }
-            });
-        });
-    }
-</script> <a class="search_cztj" href="/jobs/searchresult.ashx">
-        重置搜索条件
+<script type="text/javascript">
+    //   验证码校验
+    var ajaxVlidate;
+    function validate_indent_code(errorFun, succFun) {
+        var indentCode = $("#ident_code");
+        var result = false;
+        if (indentCode.val().replace(/^\s|\s$/g, "") != "") {
+            var url = '/Assist/SubscibeWithNotLogin?operate=checkcode';
+            var params = $('#formSubscibe').serialize();
+            validate_indent = $.ajax({
+                url: url,
+                type: 'post',
+                async: false,
+                data: params,
+                success: function (result) {
+                    var jsonResult = result;
+                    var status = false;
+                    if (jsonResult.Status < 0) {
+                        if (jsonResult.Description == "验证码错误") {
+                            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
+                            $("#randomNews_indent").html("验证码错误");
+                            ident_image_load();
+                            if (errorFun && errorFun instanceof Function) {
+                                errorFun();
+                            }
+                        }
+                    } else if (jsonResult.Status >= 0) {
+                        indentCode.parent().get(0).className = 'inputText1 span_input inputTexts_indent';
+                        $("#randomNews_indent").html("");
+                        if (succFun && succFun instanceof Function) {
+                            succFun();
+                        }
+                    }
+                }
+            });
+        } else {
+            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
+            $("#randomNews_indent").html("请输入验证码");
+            if (errorFun && errorFun instanceof Function) {
+                errorFun();
+            }
+        }
+    }
+    //  验证码重加载
+    function ident_image_load() {
+        var identDom = $('.ident_image').get(0);
+        var timeTamp = +new Date().getTime();
+        identDom.src = "/Assist/GetCaptcha?timeTamp=" + timeTamp;
+    }
+    //  loading状态开始
+    function beg_send_free_book_job() {
+
+        if (emailTemp && emailTemp.checkData($("#email").get(0)) == "0") {
+            $(".input_submit").attr({ onclick: "" })
+            $(".submit_waiting").show();
+            return true;
+        } else {
+            if ($("#email").val() == "") {
+                $("#email").get(0).onblur();
+            }
+            return false;
+        }
+    }
+    //  loading状态结束并且 一秒后关闭弹层
+    function end_send_free_book_job() {
+        $(".input_submit").html("订阅成功");
+        setTimeout(function () {
+            $("#id_job_read_container").hide();
+        }, 1000);
+    }
+    //  form提交方法
+    function subscibe() {
+        var url = '/Assist/SubscibeWithNotLogin';
+        //邮件校验
+        if (ajaxVlidate) {
+            ajaxVlidate.abort();
+        }
+        ajaxVlidate = null;
+        if (!beg_send_free_book_job()) {
+            return false;
+        }
+        $(".input_submit").unbind('click');
+        //验证码校验
+        validate_indent_code(function () {
+            $(".input_submit").bind('click', subscibe);
+            // $(".input_submit").attr({ onclick: "subscibe();" });
+            $(".submit_waiting").hide();
+        }, function () {
+            var params = $('#formSubscibe').serialize();
+            $.ajax({
+                url: url,
+                type: 'post',
+                data: params,
+                success: function (result) {
+                    var jsonResult = result;
+                    $(".submit_waiting").hide();
+                    if (jsonResult.Status < 0) {
+                        //$(".input_submit").attr({ onclick: "subscibe();" });
+                        $(".input_submit").bind('click', subscibe);
+                        if (jsonResult.Description == "验证码错误") {
+                            indentCode.parent().get(0).className = 'inputText1 span_input inputTexte_indent';
+                            $("#randomNews_indent").html("验证码错误");
+                        } else {
+                            //  其它错误
+                        }
+                        $(".submit_waiting").hide();
+                    } else if (jsonResult.Status >= 0) {
+                        end_send_free_book_job();
+                        ident_image_load();
+                    }
+                }
+            });
+        });
+    }
+</script> <a class="search_cztj" href="/jobs/searchresult.ashx">
+        重置搜索条件
     </a>
 <a class="search_sqtj" href="javascript:;">收起筛选条件</a>
 </div>
 <script src="/assets/javascript/jquery.json.js"></script>
-<script type="text/javascript">
-    var count = $('.search_yx_tj').find('em').text();
-    var url4zpAnalytics = document.location.pathname + document.location.search + '&rt=' + count;
-    var CurrentSearchHistory = {
-        "Name": "算法工程师 + 成都",
-        "SearchUrl": "http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;p=2"
-    }
-    $(document).ready(function () {
-        renderSearchHistory();
-        $(".search_yb").unbind().click(function () {
-            saveSearchHistory(CurrentSearchHistory.Name, CurrentSearchHistory.SearchUrl);
-        });
-    });
-
-    function saveSearchHistory(name, url) {
-        try {
-            var searchHistorysCookie = $.cookie('SearchHistory');
-            var searchHistorys;
-            if (searchHistorysCookie) {
-                searchHistorys = $.evalJSON(searchHistorysCookie);
-                if (searchHistorys.length == 3) {
-                    searchHistorys.pop();
-                }
-                searchHistorys.unshift({
-                    "Name": name,
-                    "SearchUrl": url
-                });
-            } else {
-                searchHistorys = [
-                    {
-                        "Name": name,
-                        "SearchUrl": url
-                    }
-                ];
-            }
-            $.cookie('SearchHistory', $.toJSON(searchHistorys), { expires: 30, path: '/' });
-            renderSearchHistory();
-            saveSearchHistoryOver();
-        } catch (ex) { }
-    }
-
-    function renderSearchHistory() {
-        try {
-            var searchHistorysCookie = $.cookie('SearchHistory');
-            if (searchHistorysCookie) {
-                var searchHistorys = $.evalJSON(searchHistorysCookie);
-                $("#SearchHistoryCount").html(searchHistorys.length);
-                if (searchHistorys.length > 0) {
-                    var sb = [];
-                    for (var i = 0; i < searchHistorys.length; i++) {
-                        var searchHistory = searchHistorys[i];
-                        sb.push('<li class="clearfix"><a href="' + searchHistory.SearchUrl + '">' + searchHistory.Name + '</a><span onClick="javascript:deleteSearchHistory(' + i + ');"></span></li>');
-                    }
-                    $("#SearchHistoryList")[0].innerHTML = sb.join("");
-                } else {
-                    $("#SearchHistoryList")[0].innerHTML = "";
-                    $(".search_yb").removeClass("saveover").css("color", "#3359ac").unbind().click(function () {
-                        saveSearchHistory(CurrentSearchHistory.Name, CurrentSearchHistory.SearchUrl);
-                    });
-                }
-            } else {
-                $("#SearchHistoryCount").html("0");
-            }
-        } catch (ex) { }
-    }
-
-    function deleteSearchHistory(index) {
-        try {
-            var searchHistorysCookie = $.cookie('SearchHistory');
-            if (searchHistorysCookie) {
-                var searchHistorys = $.evalJSON(searchHistorysCookie);
-                if (searchHistorys.length >= index + 1) {
-                    searchHistorys.splice(index, 1);
-                }
-                $.cookie('SearchHistory', $.toJSON(searchHistorys), { expires: 30, path: '/' });
-            }
-            renderSearchHistory();
-        }
-        catch (ex) { }
-    }
-
-    function saveSearchHistoryOver() {
-        if (!$(".search_yb").hasClass("saveover")) {
-            $(".search_yb").addClass("saveover").css("color", "#999").unbind();
-            $('.relucss_tc').stop().fadeIn();
-            setTimeout(function () {
-                $('.relucss_tc').stop().fadeOut();
-            }, 1000);
-        }
-    }
+<script type="text/javascript">
+    var count = $('.search_yx_tj').find('em').text();
+    var url4zpAnalytics = document.location.pathname + document.location.search + '&rt=' + count;
+    var CurrentSearchHistory = {
+        "Name": "算法工程师 + 成都",
+        "SearchUrl": "http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;p=2"
+    }
+    $(document).ready(function () {
+        renderSearchHistory();
+        $(".search_yb").unbind().click(function () {
+            saveSearchHistory(CurrentSearchHistory.Name, CurrentSearchHistory.SearchUrl);
+        });
+    });
+
+    function saveSearchHistory(name, url) {
+        try {
+            var searchHistorysCookie = $.cookie('SearchHistory');
+            var searchHistorys;
+            if (searchHistorysCookie) {
+                searchHistorys = $.evalJSON(searchHistorysCookie);
+                if (searchHistorys.length == 3) {
+                    searchHistorys.pop();
+                }
+                searchHistorys.unshift({
+                    "Name": name,
+                    "SearchUrl": url
+                });
+            } else {
+                searchHistorys = [
+                    {
+                        "Name": name,
+                        "SearchUrl": url
+                    }
+                ];
+            }
+            $.cookie('SearchHistory', $.toJSON(searchHistorys), { expires: 30, path: '/' });
+            renderSearchHistory();
+            saveSearchHistoryOver();
+        } catch (ex) { }
+    }
+
+    function renderSearchHistory() {
+        try {
+            var searchHistorysCookie = $.cookie('SearchHistory');
+            if (searchHistorysCookie) {
+                var searchHistorys = $.evalJSON(searchHistorysCookie);
+                $("#SearchHistoryCount").html(searchHistorys.length);
+                if (searchHistorys.length > 0) {
+                    var sb = [];
+                    for (var i = 0; i < searchHistorys.length; i++) {
+                        var searchHistory = searchHistorys[i];
+                        sb.push('<li class="clearfix"><a href="' + searchHistory.SearchUrl + '">' + searchHistory.Name + '</a><span onClick="javascript:deleteSearchHistory(' + i + ');"></span></li>');
+                    }
+                    $("#SearchHistoryList")[0].innerHTML = sb.join("");
+                } else {
+                    $("#SearchHistoryList")[0].innerHTML = "";
+                    $(".search_yb").removeClass("saveover").css("color", "#3359ac").unbind().click(function () {
+                        saveSearchHistory(CurrentSearchHistory.Name, CurrentSearchHistory.SearchUrl);
+                    });
+                }
+            } else {
+                $("#SearchHistoryCount").html("0");
+            }
+        } catch (ex) { }
+    }
+
+    function deleteSearchHistory(index) {
+        try {
+            var searchHistorysCookie = $.cookie('SearchHistory');
+            if (searchHistorysCookie) {
+                var searchHistorys = $.evalJSON(searchHistorysCookie);
+                if (searchHistorys.length >= index + 1) {
+                    searchHistorys.splice(index, 1);
+                }
+                $.cookie('SearchHistory', $.toJSON(searchHistorys), { expires: 30, path: '/' });
+            }
+            renderSearchHistory();
+        }
+        catch (ex) { }
+    }
+
+    function saveSearchHistoryOver() {
+        if (!$(".search_yb").hasClass("saveover")) {
+            $(".search_yb").addClass("saveover").css("color", "#999").unbind();
+            $('.relucss_tc').stop().fadeIn();
+            setTimeout(function () {
+                $('.relucss_tc').stop().fadeOut();
+            }, 1000);
+        }
+    }
 </script>
 <div class="newlist_main">
 <form method="get" name="frmMain" style="margin: 0;">
 <div class="clearfix">
-<style type="text/css">
-    .fk_lv span {
-        padding-left: 8px;
-    }
+<style type="text/css">
+    .fk_lv span {
+        padding-left: 8px;
+    }
 </style>
 <div class="newlist_wrap fl">
 <div class="newlist_top">
@@ -713,6 +713,138 @@ function  widfn(){
 </p>
 <div class="newlist_list_content" id="newlist_list_content_table">
 <table cellpadding="0" cellspacing="0" class="newlist" width="853"><tr><th class="zwmc" style="width:250px;"><span>职位名称</span></th><th style="width:60px;">反馈率</th><th class="gsmc">公司名称</th> <th class="zwyx">职位月薪</th><th class="gzdd">工作地点</th><th class="gxsj">发布日期</th></tr></table>
+<table cellpadding="0" cellspacing="0" class="newlist" width="853">
+<tr>
+<td class="zwmc" style="width: 250px;">
+<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC299298139J90250005000_801_1_03_201__1_"/>
+<div style="width: 224px;*width: 218px; _width:200px; float: left">
+<a href="http://jobs.zhaopin.com/299298139250005.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">高级<b>算法工程师</b>(IOT物联网方向)</a>
+</div>
+</td>
+<td class="fk_lv" style="width: 60px;"><span></span></td>
+<td class="gsmc"><a href="http://company.zhaopin.com/CC299298139.htm" target="_blank">深圳市汇顶科技股份有限公司成都分公司</a></td>
+<td class="zwyx">面议</td>
+<td class="gzdd">成都</td>
+<td class="gxsj"><span>04-14</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+</tr>
+<tr class="newlist_tr_detail" style="display: none">
+<td colspan="6" style="line-height: 0;" width="833px">
+<div class="newlist_detail">
+<div class="clearfix">
+<ul>
+<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：合资</span><span>公司规模：500-999人</span><span>经验：1-3年</span><span>学历：硕士</span><li class="newlist_deatil_last"> 岗位职责:  1.	负责IOT物联网相关算法理论研究、算法实现； 2.	负责IOT物联网算法的优化与维护工作； 3.	负责大数据处理相关的算法研究。   任职资格:  1.	硕士及以上学历，计算机、信号处理等相关专业； 2.	两年以上物联网相关算法设计经验； 3.	对数据挖掘、大数据有深入研究， ...</li></li>
+</ul>
+<dl>
+<dt>
+<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC299298139J90250005000_801','ssi','_1_03_201__2_')">
+<img src="/assets/images/newlist_sqimg_03.jpg"/>
+</a>
+</dt>
+<dd><a href="javascript:zlapply.searchjob.saveOne('CC299298139J90250005000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</table>
+<table cellpadding="0" cellspacing="0" class="newlist" width="853">
+<tr>
+<td class="zwmc" style="width: 250px;">
+<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC678816428J90250067000_801_1_03_201__1_"/>
+<div style="width: 224px;*width: 218px; _width:200px; float: left">
+<a href="http://jobs.zhaopin.com/678816428250067.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">高级<b>算法工程师</b></a>
+</div>
+</td>
+<td class="fk_lv" style="width: 60px;"><span></span></td>
+<td class="gsmc"><a href="http://company.zhaopin.com/CC678816428.htm" target="_blank">意诺科技有限公司</a></td>
+<td class="zwyx">面议</td>
+<td class="gzdd">成都</td>
+<td class="gxsj"><span>04-14</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+</tr>
+<tr class="newlist_tr_detail" style="display: none">
+<td colspan="6" style="line-height: 0;" width="833px">
+<div class="newlist_detail">
+<div class="clearfix">
+<ul>
+<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：合资</span><span>公司规模：20-99人</span><span>学历：本科</span><li class="newlist_deatil_last"> Key Qualifications  ＊ The candidate is required to have a track record and strong background in computer vision and machine learning. He/she must hav...</li></li>
+</ul>
+<dl>
+<dt>
+<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC678816428J90250067000_801','ssi','_1_03_201__2_')">
+<img src="/assets/images/newlist_sqimg_03.jpg"/>
+</a>
+</dt>
+<dd><a href="javascript:zlapply.searchjob.saveOne('CC678816428J90250067000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</table>
+<table cellpadding="0" cellspacing="0" class="newlist" width="853">
+<tr>
+<td class="zwmc" style="width: 250px;">
+<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC120859930J90250291000_801_1_03_201__1_"/>
+<div style="width: 224px;*width: 218px; _width:200px; float: left">
+<a href="http://jobs.zhaopin.com/120859930250291.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">无线Mesh网络路由器及MAC<b>算法工程师</b></a>
+</div>
+</td>
+<td class="fk_lv" style="width: 60px;"><span></span></td>
+<td class="gsmc"><a href="http://company.zhaopin.com/CC120859930.htm" target="_blank">成都泰格微波技术股份有限公司</a></td>
+<td class="zwyx">面议</td>
+<td class="gzdd">成都</td>
+<td class="gxsj"><span>04-13</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+</tr>
+<tr class="newlist_tr_detail" style="display: none">
+<td colspan="6" style="line-height: 0;" width="833px">
+<div class="newlist_detail">
+<div class="clearfix">
+<ul>
+<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：民营</span><span>公司规模：500-999人</span><span>学历：不限</span><li class="newlist_deatil_last"> 职位描述：  1、负责无线MESH组网通信中路由算法及MAC算法，并评估算法性能及效率优化；   2、配合完成网络算法的硬件实现。     任职要求：  熟练掌握C语言、MATLAB和C语言等仿真测试工具，有实际的项目开发经验，了解软件工程思想；  熟悉FPGA/DSP程序的设计与调试与Adhoc...</li></li>
+</ul>
+<dl>
+<dt>
+<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC120859930J90250291000_801','ssi','_1_03_201__2_')">
+<img src="/assets/images/newlist_sqimg_03.jpg"/>
+</a>
+</dt>
+<dd><a href="javascript:zlapply.searchjob.saveOne('CC120859930J90250291000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</table>
+<table cellpadding="0" cellspacing="0" class="newlist" width="853">
+<tr>
+<td class="zwmc" style="width: 250px;">
+<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC130557355J90250233000_801_1_03_201__1_"/>
+<div style="width: 224px;*width: 218px; _width:200px; float: left">
+<a href="http://jobs.zhaopin.com/13055735590250233000.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">图像<b>算法工程师</b></a>
+</div>
+</td>
+<td class="fk_lv" style="width: 60px;"><span></span></td>
+<td class="gsmc"><a href="http://company.zhaopin.com/CC130557355.htm" target="_blank">中科院成都信息技术股份有限公司</a></td>
+<td class="zwyx">面议</td>
+<td class="gzdd">成都</td>
+<td class="gxsj"><span>04-13</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+</tr>
+<tr class="newlist_tr_detail" style="display: none">
+<td colspan="6" style="line-height: 0;" width="833px">
+<div class="newlist_detail">
+<div class="clearfix">
+<ul>
+<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：国企</span><span>公司规模：100-499人</span><span>学历：本科</span><li class="newlist_deatil_last"> 一、岗位描述     从事图像及视频检测相关算法设计与编码，工业机器视觉检测产品开发与服务。     二、岗位要求     1.计算机及相关专业本科及以上学历；     2.精通C++语言，有C++项目经验；     3.精通OpenCV，熟练掌握对图像矩阵的基本操作；     4.掌握机器学习及...</li></li>
+</ul>
+<dl>
+<dt>
+<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC130557355J90250233000_801','ssi','_1_03_201__2_')">
+<img src="/assets/images/newlist_sqimg_03.jpg"/>
+</a>
+</dt>
+<dd><a href="javascript:zlapply.searchjob.saveOne('CC130557355J90250233000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</table>
 <table cellpadding="0" cellspacing="0" class="newlist" width="853">
 <tr>
 <td class="zwmc" style="width: 250px;">
@@ -749,39 +881,6 @@ function  widfn(){
 <table cellpadding="0" cellspacing="0" class="newlist" width="853">
 <tr>
 <td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC241700513J90250149000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/241700513250149.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">FPGA<b>算法工程师</b>(高级信号处理工程师)</a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://company.zhaopin.com/%E6%88%90%E9%83%BD%E5%BA%B7%E5%9C%A3%E7%94%B5%E5%AD%90%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8_CC241700513.htm" target="_blank">成都康圣电子科技有限公司</a></td>
-<td class="zwyx">面议</td>
-<td class="gzdd">成都 - 高新区</td>
-<td class="gxsj"><span>04-12</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都 - 高新区</span><span>公司性质：民营</span><span>公司规模：20-99人</span><span>经验：1-3年</span><span>学历：硕士</span><li class="newlist_deatil_last"> 1，学历要求               须持有985或211大学 C.S,E.E等专业,硕士以上毕业证书                      2， 专业基础要求                         （1）熟悉VHDL，Verilog，Matlab等编程语言           ...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC241700513J90250149000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC241700513J90250149000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
 <input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC594831327J90250318000_801_1_03_201__1_"/>
 <div style="width: 224px;*width: 218px; _width:200px; float: left">
 <a href="http://jobs.zhaopin.com/594831327250318.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank"><b>算法工程师</b></a>
@@ -807,138 +906,6 @@ function  widfn(){
 </a>
 </dt>
 <dd><a href="javascript:zlapply.searchjob.saveOne('CC594831327J90250318000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC702220820J90250197000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/702220820250197.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">惯导<b>算法工程师</b></a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://company.zhaopin.com/CC702220820.htm" target="_blank">成都希德电子信息技术有限公司</a></td>
-<td class="zwyx">8001-10000</td>
-<td class="gzdd">成都</td>
-<td class="gxsj"><span>04-12</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：3-5年</span><span>学历：本科</span><span>职位月薪：8001-10000元/月</span><li class="newlist_deatil_last"> 岗位职责：  1.负责MEMS惯性传感器及组合导航核心技术研发；  2.负责惯性系统开发中算法和软件的设计、仿真和相关试验工作；   3.负责惯性系统调研、方案策划、算法设计和精度分析。         岗位要求：       1.本科以上学历，数学、计算机、导航专业或其他相关专业；  2.具有扎...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC702220820J90250197000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC702220820J90250197000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC702220820J90250174000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/702220820250174.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">高级信号处理逻辑工程师（高级FPGA）</a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://company.zhaopin.com/CC702220820.htm" target="_blank">成都希德电子信息技术有限公司</a></td>
-<td class="zwyx">10001-15000</td>
-<td class="gzdd">成都 - 高新区</td>
-<td class="gxsj"><span>04-12</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都 - 高新区</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>经验：3-5年</span><span>学历：硕士</span><span>职位月薪：10001-15000元/月</span><li class="newlist_deatil_last"> 职能描述：  1、FPGA在通信方面的开发工作；  2、配合<b>算法工程师</b>进行逻辑实现；  3、配合软、硬件联调和测试；  技能要求：  1、电子/通信相关专业本科及以上学历，理论基础扎实，具有3年以上FPGA设计经验；2、熟悉XILINX或ALTERA FPGA内部结构，熟悉相关开发工...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC702220820J90250174000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC702220820J90250174000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC407864527J90251634000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/407864527251634.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">密码<b>算法工程师</b></a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://special.zhaopin.com/pagepublish/40786452/index.html" target="_blank">成都天钥科技有限公司</a></td>
-<td class="zwyx">面议</td>
-<td class="gzdd">成都 - 高新区</td>
-<td class="gxsj"><span>04-11</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都 - 高新区</span><span>公司性质：民营</span><span>公司规模：20-99人</span><span>学历：不限</span><li class="newlist_deatil_last"> 任职要求：  1计算机及相关专业，最好计算机或者数学硕博士。  2.对密码学有深入的理解，熟悉数学分析和算法分析。  3.较强的学习能力和自主科研能力，性格稳定，思路清晰，善于分析问题和解决。  4.有做事业的愿望，期望和公司共同成长。   5.有较强的计算编程能力，能够对算法进行程序实现并在计算...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC407864527J90251634000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC407864527J90251634000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC283567739J90250237000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/283567739250237.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank"><b>算法工程师</b></a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://company.zhaopin.com/CC283567739.htm" target="_blank">成都数联文化传播有限公司</a></td>
-<td class="zwyx">10001-15000</td>
-<td class="gzdd">成都 - 郫县</td>
-<td class="gxsj"><span>04-11</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都 - 郫县</span><span>公司性质：民营</span><span>公司规模：20-99人</span><span>经验：1-3年</span><span>学历：硕士</span><span>职位月薪：10001-15000元/月</span><li class="newlist_deatil_last"> 岗位职责： 1、 负责舆情分析系统相关基础功能模块的设计和开发； 2、 负责舆情分析系统中相关算法的设计和开发； 3、 参与数据分析平台部分后台功能模块的设计、开发； 4.  参与基础算法的研究、设计、开发工作； 4、 参与项目中部分技术性文档撰写工作。  任职资格： 1、 计算机、数学或统计学相...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC283567739J90250237000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC283567739J90250237000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
 </dl>
 </div>
 </div>
@@ -1013,39 +980,6 @@ function  widfn(){
 <table cellpadding="0" cellspacing="0" class="newlist" width="853">
 <tr>
 <td class="zwmc" style="width: 250px;">
-<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC592200324J90250055000_801_1_03_201__1_"/>
-<div style="width: 224px;*width: 218px; _width:200px; float: left">
-<a href="http://jobs.zhaopin.com/592200324250055.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank"><b>算法工程师</b></a>
-</div>
-</td>
-<td class="fk_lv" style="width: 60px;"><span></span></td>
-<td class="gsmc"><a href="http://company.zhaopin.com/CC592200324.htm" target="_blank">成都凌感科技有限公司</a></td>
-<td class="zwyx">4001-6000</td>
-<td class="gzdd">成都</td>
-<td class="gxsj"><span>03-31</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
-</tr>
-<tr class="newlist_tr_detail" style="display: none">
-<td colspan="6" style="line-height: 0;" width="833px">
-<div class="newlist_detail">
-<div class="clearfix">
-<ul>
-<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：其它</span><span>公司规模：20-99人</span><span>经验：1-3年</span><span>学历：大专</span><span>职位月薪：4001-6000元/月</span><li class="newlist_deatil_last"> 岗位职责：  1、参与公司项目算法设计及算法实现；  2、负责软件算法和产品研发；  3、负责原有图像算法的改进和新算法的开发；  4、负责公司检测参数算法的优化；  任职要求：  1、图像处理或模式识别专业背景，或本科2年以上工作经验或应届硕士毕业生；  2、具备图像处理及识别的基础理论和算法知...</li></li>
-</ul>
-<dl>
-<dt>
-<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC592200324J90250055000_801','ssi','_1_03_201__2_')">
-<img src="/assets/images/newlist_sqimg_03.jpg"/>
-</a>
-</dt>
-<dd><a href="javascript:zlapply.searchjob.saveOne('CC592200324J90250055000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
-</dl>
-</div>
-</div>
-</td></tr>
-</table>
-<table cellpadding="0" cellspacing="0" class="newlist" width="853">
-<tr>
-<td class="zwmc" style="width: 250px;">
 <input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC366250812J90250157000_801_1_03_201__1_"/>
 <div style="width: 224px;*width: 218px; _width:200px; float: left">
 <a href="http://jobs.zhaopin.com/366250812250157.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">机器人控制系统工程师（控制<b>算法工程师</b>）</a>
@@ -1084,7 +1018,7 @@ function  widfn(){
 <a href="http://jobs.zhaopin.com/366320731250001.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">图像<b>算法工程师</b></a>
 </div>
 </td>
-<td class="fk_lv" style="width: 60px;"><span>57%</span></td>
+<td class="fk_lv" style="width: 60px;"><span>52%</span></td>
 <td class="gsmc"><a href="http://company.zhaopin.com/CC366320731.htm" target="_blank">成都驰骛科技有限公司</a></td>
 <td class="zwyx">面议</td>
 <td class="gzdd">成都</td>
@@ -1142,6 +1076,39 @@ function  widfn(){
 </div>
 </td></tr>
 </table>
+<table cellpadding="0" cellspacing="0" class="newlist" width="853">
+<tr>
+<td class="zwmc" style="width: 250px;">
+<input name="vacancyid" onclick="zlapply.uncheckAll('allvacancyid')" type="checkbox" value="CC215599818J90250371000_801_1_03_201__1_"/>
+<div style="width: 224px;*width: 218px; _width:200px; float: left">
+<a href="http://jobs.zhaopin.com/215599818250371.htm" par="ssidkey=y&amp;ss=201&amp;ff=03" style="font-weight: bold" target="_blank">高级<b>算法工程师</b></a>
+</div>
+</td>
+<td class="fk_lv" style="width: 60px;"><span></span></td>
+<td class="gsmc"><a href="http://special.zhaopin.com/pagepublish/21559981/index.html" target="_blank">成都和为软件技术有限公司</a></td>
+<td class="zwyx">15001-20000</td>
+<td class="gzdd">成都</td>
+<td class="gxsj"><span>04-19</span><a class="newlist_list_xlbtn" href="javascript:;"></a></td>
+</tr>
+<tr class="newlist_tr_detail" style="display: none">
+<td colspan="6" style="line-height: 0;" width="833px">
+<div class="newlist_detail">
+<div class="clearfix">
+<ul>
+<li class="newlist_deatil_two"><span>地点：成都</span><span>公司性质：民营</span><span>公司规模：100-499人</span><span>学历：硕士</span><span>职位月薪：15001-20000元/月</span><li class="newlist_deatil_last"> 职位描述：  1. 对公司各类数据分析、定位、图象分析算法和机械产品进行数学建模和仿真。  2. 指导公司算法和产品实现过程。  3. 对数学模型实现结果进行评估、寻找理论依据并优化模型。     任职资格：  1. 应用数学、导航、物理及相关专业硕士研究生及以上；  2. 具有扎实的数学理论功底...</li></li>
+</ul>
+<dl>
+<dt>
+<a href="javascript:void(0)" onclick="return zlapply.searchjob.ajaxApplyBrig1('CC215599818J90250371000_801','ssi','_1_03_201__2_')">
+<img src="/assets/images/newlist_sqimg_03.jpg"/>
+</a>
+</dt>
+<dd><a href="javascript:zlapply.searchjob.saveOne('CC215599818J90250371000_801')"><img src="/assets/images/newlist_scimg_06.jpg"/></a></dd>
+</dl>
+</div>
+</div>
+</td></tr>
+</table>
 </div>
 <p class="newlist_list_top clearfix">
 <label>
@@ -1154,41 +1121,36 @@ function  widfn(){
 </div>
 <div class="pagesDown" style="_width:570px">
 <ul>
-<li><a class="pre-page" href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;sg=3d8bc42beed248fc9c133086f78c19fe&amp;p=1">上一页</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;sg=3d8bc42beed248fc9c133086f78c19fe&amp;p=1">1</a></li><li><a class="current" href="#">2</a></li><li><a class="next-page nopress2">下一页</a></li><li class="nextpagego-box"><input id="guid" type="hidden" value="3d8bc42beed248fc9c133086f78c19fe"/>到       页<input class="pagesnum" id="goto" name="goto" onchange="zlapply.searchjob.fnCheckInt(this,event)" onkeypress="zlapply.searchjob.enter2Page(this,event,2)" onkeyup="zlapply.searchjob.fnCheckInt(this,event)" type="text" value="2"/><button class="nextpagego-btn" name="go" onclick="zlapply.searchjob.gotoPage(this.form.goto.value,2,'','3d8bc42beed248fc9c133086f78c19fe')" type="button"></button></li> <li class="clearfix"></li>
+<li><a class="pre-page" href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;sg=140009d4bb474b5a97b3528e0313f143&amp;p=1">上一页</a></li><li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx?jl=%e6%88%90%e9%83%bd&amp;sm=0&amp;kw=%e7%ae%97%e6%b3%95%e5%b7%a5%e7%a8%8b%e5%b8%88&amp;sg=140009d4bb474b5a97b3528e0313f143&amp;p=1">1</a></li><li><a class="current" href="#">2</a></li><li><a class="next-page nopress2">下一页</a></li><li class="nextpagego-box"><input id="guid" type="hidden" value="140009d4bb474b5a97b3528e0313f143"/>到       页<input class="pagesnum" id="goto" name="goto" onchange="zlapply.searchjob.fnCheckInt(this,event)" onkeypress="zlapply.searchjob.enter2Page(this,event,2)" onkeyup="zlapply.searchjob.fnCheckInt(this,event)" type="text" value="2"/><button class="nextpagego-btn" name="go" onclick="zlapply.searchjob.gotoPage(this.form.goto.value,2,'','140009d4bb474b5a97b3528e0313f143')" type="button"></button></li> <li class="clearfix"></li>
 </ul>
 </div>
 </div>
-<input name="h_job_id" type="hidden" value="CC341779784J90250000000_801_1_03_201__1__1|CC241700513J90250149000_801_1_03_201__1__1|CC594831327J90250318000_801_1_03_201__1__1|CC702220820J90250197000_801_1_03_201__1__1|CC702220820J90250174000_801_1_03_201__1__1|CC407864527J90251634000_801_1_03_201__1__1|CC283567739J90250237000_801_1_03_201__1__1|CC255538639J90250003000_801_1_03_201__1__1|CC386675510J90250004000_801_1_03_201__1__1|CC592200324J90250055000_801_1_03_201__1__1|CC366250812J90250157000_801_1_03_201__1__1|CC366320731J90250001000_801_1_03_201__1__1|CC215489119J90250286000_801_1_03_201__1__1"/>
-<input name="h_method" type="hidden" value="_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_"/>
-<input name="h_job_title" type="hidden" value="算法仿真工程师/系统工程师|FPGA&lt;b&gt;算法工程师&lt;/b&gt;(高级信号处理工程师)|&lt;b&gt;算法工程师&lt;/b&gt;|惯导&lt;b&gt;算法工程师&lt;/b&gt;|高级信号处理逻辑工程师（高级FPGA）|密码&lt;b&gt;算法工程师&lt;/b&gt;|&lt;b&gt;算法工程师&lt;/b&gt;|电磁场数值&lt;b&gt;算法工程师&lt;/b&gt;|传感器算法研究工程师|&lt;b&gt;算法工程师&lt;/b&gt;|机器人控制系统工程师（控制&lt;b&gt;算法工程师&lt;/b&gt;）|图像&lt;b&gt;算法工程师&lt;/b&gt;|软件工程师（C++算法）"/>
-<input name="h_company" type="hidden" value="成都微视信通信技术有限公司|成都康圣电子科技有限公司|成都数之联科技有限公司|成都希德电子信息技术有限公司|成都希德电子信息技术有限公司|成都天钥科技有限公司|成都数联文化传播有限公司|四川中测微格科技有限公司|成都市岷江工业有限公司|成都凌感科技有限公司|成都奥特为科技有限公司|成都驰骛科技有限公司|成都西物信安智能系统有限公司"/>
-<input name="h_city" type="hidden" value="成都 - 高新区|成都 - 高新区|成都 - 郫县|成都|成都 - 高新区|成都 - 高新区|成都 - 郫县|成都 - 成华区|成都|成都|成都 - 高新区|成都|成都"/>
-<input name="h_job_url" type="hidden" value="http://jobs.zhaopin.com/341779784250000.htm|http://jobs.zhaopin.com/241700513250149.htm|http://jobs.zhaopin.com/594831327250318.htm|http://jobs.zhaopin.com/702220820250197.htm|http://jobs.zhaopin.com/702220820250174.htm|http://jobs.zhaopin.com/407864527251634.htm|http://jobs.zhaopin.com/283567739250237.htm|http://jobs.zhaopin.com/255538639250003.htm|http://jobs.zhaopin.com/386675510250004.htm|http://jobs.zhaopin.com/592200324250055.htm|http://jobs.zhaopin.com/366250812250157.htm|http://jobs.zhaopin.com/366320731250001.htm|http://jobs.zhaopin.com/215489119250286.htm"/>
-<input id="vacancyids" name="vacancyids" type="hidden" value="CC341779784J90250000000_801_1_03_201__1_,CC241700513J90250149000_801_1_03_201__1_,CC594831327J90250318000_801_1_03_201__1_,CC702220820J90250197000_801_1_03_201__1_,CC702220820J90250174000_801_1_03_201__1_,CC407864527J90251634000_801_1_03_201__1_,CC283567739J90250237000_801_1_03_201__1_,CC255538639J90250003000_801_1_03_201__1_,CC386675510J90250004000_801_1_03_201__1_,CC592200324J90250055000_801_1_03_201__1_,CC366250812J90250157000_801_1_03_201__1_,CC366320731J90250001000_801_1_03_201__1_,CC215489119J90250286000_801_1_03_201__1_,"/>
+<input name="h_job_id" type="hidden" value="CC299298139J90250005000_801_1_03_201__1__1|CC678816428J90250067000_801_1_03_201__1__1|CC120859930J90250291000_801_1_03_201__1__1|CC130557355J90250233000_801_1_03_201__1__1|CC341779784J90250000000_801_1_03_201__1__1|CC594831327J90250318000_801_1_03_201__1__1|CC255538639J90250003000_801_1_03_201__1__1|CC386675510J90250004000_801_1_03_201__1__1|CC366250812J90250157000_801_1_03_201__1__1|CC366320731J90250001000_801_1_03_201__1__1|CC215489119J90250286000_801_1_03_201__1__1|CC215599818J90250371000_801_1_03_201__1__1"/>
+<input name="h_method" type="hidden" value="_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_|_1_03_201__2_"/>
+<input name="h_job_title" type="hidden" value="高级&lt;b&gt;算法工程师&lt;/b&gt;(IOT物联网方向)|高级&lt;b&gt;算法工程师&lt;/b&gt;|无线Mesh网络路由器及MAC&lt;b&gt;算法工程师&lt;/b&gt;|图像&lt;b&gt;算法工程师&lt;/b&gt;|算法仿真工程师/系统工程师|&lt;b&gt;算法工程师&lt;/b&gt;|电磁场数值&lt;b&gt;算法工程师&lt;/b&gt;|传感器算法研究工程师|机器人控制系统工程师（控制&lt;b&gt;算法工程师&lt;/b&gt;）|图像&lt;b&gt;算法工程师&lt;/b&gt;|软件工程师（C++算法）|高级&lt;b&gt;算法工程师&lt;/b&gt;"/>
+<input name="h_company" type="hidden" value="深圳市汇顶科技股份有限公司成都分公司|意诺科技有限公司|成都泰格微波技术股份有限公司|中科院成都信息技术股份有限公司|成都微视信通信技术有限公司|成都数之联科技有限公司|四川中测微格科技有限公司|成都市岷江工业有限公司|成都奥特为科技有限公司|成都驰骛科技有限公司|成都西物信安智能系统有限公司|成都和为软件技术有限公司"/>
+<input name="h_city" type="hidden" value="成都|成都|成都|成都|成都 - 高新区|成都 - 郫县|成都 - 成华区|成都|成都 - 高新区|成都|成都|成都"/>
+<input name="h_job_url" type="hidden" value="http://jobs.zhaopin.com/299298139250005.htm|http://jobs.zhaopin.com/678816428250067.htm|http://jobs.zhaopin.com/120859930250291.htm|http://jobs.zhaopin.com/13055735590250233000.htm|http://jobs.zhaopin.com/341779784250000.htm|http://jobs.zhaopin.com/594831327250318.htm|http://jobs.zhaopin.com/255538639250003.htm|http://jobs.zhaopin.com/386675510250004.htm|http://jobs.zhaopin.com/366250812250157.htm|http://jobs.zhaopin.com/366320731250001.htm|http://jobs.zhaopin.com/215489119250286.htm|http://jobs.zhaopin.com/215599818250371.htm"/>
+<input id="vacancyids" name="vacancyids" type="hidden" value="CC299298139J90250005000_801_1_03_201__1_,CC678816428J90250067000_801_1_03_201__1_,CC120859930J90250291000_801_1_03_201__1_,CC130557355J90250233000_801_1_03_201__1_,CC341779784J90250000000_801_1_03_201__1_,CC594831327J90250318000_801_1_03_201__1_,CC255538639J90250003000_801_1_03_201__1_,CC386675510J90250004000_801_1_03_201__1_,CC366250812J90250157000_801_1_03_201__1_,CC366320731J90250001000_801_1_03_201__1_,CC215489119J90250286000_801_1_03_201__1_,CC215599818J90250371000_801_1_03_201__1_,"/>
 <!--beg 反馈通 -->
 <link href="http://img01.zhaopin.cn/2014/common/css/reset-min.css" rel="stylesheet" type="text/css"/>
 <link href="http://img01.zhaopin.cn/2014/common/css/feedback/feedback-tip.css" rel="stylesheet" type="text/css"/>
 <script src="http://img01.zhaopin.cn/2014/common/js/window.dialog.01.js"></script>
 <script src="http://img01.zhaopin.cn/2014/common/js/jobapply/job-apply.js"></script>
 <!-- 增加反馈率 -->
-<script type="text/javascript">
-    $(function () {
-        $(".fk_lv").each(function() {
-            var fk = parseFloat($(this).text());
-            if (fk >= 80) {
-                $(this).css({color:"red"});
-            }
-        });
-    })
+<script type="text/javascript">
+    $(function () {
+        $(".fk_lv").each(function() {
+            var fk = parseFloat($(this).text());
+            if (fk >= 80) {
+                $(this).css({color:"red"});
+            }
+        });
+    })
 </script>
 <!--end 反馈通 -->
 <div class="newlist_right_code fr">
 <ul>
-<li>
-<a href="http://special.zhaopin.com/2016/bf/zlzp032265/" onclick="javascript:dyweTrackEvent('soujoblist','rightsidead20160329');" target="_blank">
-<img src="/assets/images/offsidead/20160329.jpg"/>
-</a>
-</li>
 <li>
 <a href="http://cnt.zhaopin.com/Market/whole_counter.jsp?sid=121123540&amp;site=amy5&amp;url=http://rqc.zhaopin.com" onclick="javascript:dyweTrackEvent('soujoblist','rightsidead20160315');" target="_blank">
 <img src="/assets/images/offsidead/20160315.jpg"/>
@@ -1217,31 +1179,31 @@ function  widfn(){
 </ul>
 </div>
 </div>
-<div class="satsurvey">
-                您对搜索结果满意么？
+<div class="satsurvey">
+                您对搜索结果满意么？
                 <input class="satisfied" type="button" value="满  意"/>
 <input class="unsatisfied" type="button" value="不满意"/>
 </div>
-<div class="result">
-                感谢您的反馈
+<div class="result">
+                感谢您的反馈
             </div>
 <div class="interested-thing" style="width:853px;">
-<h4>
-                    你也许还对这些感兴趣
+<h4>
+                    你也许还对这些感兴趣
                 </h4>
 <ul>
 <li><a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160200">成都/计算机硬件</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160400">成都/计算机软件</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160000">成都/IT服务（系统/数据/维护）</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=210500">成都/互联网/电子商务</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160600">成都/网络游戏</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160100">成都/通信/电信运营、增值服务</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=160500">成都/电子技术/半导体/集成电路</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=121200">成都/仪器仪表及工业自动化</a>　<a href="http://sou.zhaopin.com/jobs/searchresult.ashx??jl=801&amp;in=180000">成都/基金/证券/期货</a>　</li>
 <li>
-<a href="http://www.zhaopin.com/beijing/">北京招聘</a> <a href="http://www.zhaopin.com/shanghai/">
-                            上海招聘
-                        </a> <a href="http://www.zhaopin.com/shenzhen/">深圳招聘</a> <a href="http://www.zhaopin.com/guangzhou/">
-                            广州招聘
-                        </a> <a href="http://www.zhaopin.com/tianjin/">天津招聘</a> <a href="http://www.zhaopin.com/wuhan/">
-                            武汉招聘
-                        </a> <a href="http://www.zhaopin.com/xian/">西安招聘</a> <a href="http://www.zhaopin.com/chengdu/">
-                            成都招聘
-                        </a><a href="http://www.zhaopin.com/dalian/">大连招聘</a> <a href="http://www.zhaopin.com/changchun/">
-                            长春招聘
+<a href="http://www.zhaopin.com/beijing/">北京招聘</a> <a href="http://www.zhaopin.com/shanghai/">
+                            上海招聘
+                        </a> <a href="http://www.zhaopin.com/shenzhen/">深圳招聘</a> <a href="http://www.zhaopin.com/guangzhou/">
+                            广州招聘
+                        </a> <a href="http://www.zhaopin.com/tianjin/">天津招聘</a> <a href="http://www.zhaopin.com/wuhan/">
+                            武汉招聘
+                        </a> <a href="http://www.zhaopin.com/xian/">西安招聘</a> <a href="http://www.zhaopin.com/chengdu/">
+                            成都招聘
+                        </a><a href="http://www.zhaopin.com/dalian/">大连招聘</a> <a href="http://www.zhaopin.com/changchun/">
+                            长春招聘
                         </a> <a href="http://www.zhaopin.com/shenyang/">沈阳招聘</a>
 </li>
 </ul>
@@ -1261,7 +1223,7 @@ function  widfn(){
 <div class="alt_select m_top5 m_bottom10">
 <select class="box_select01 f_left" id="box_select_company" name="" onchange="unit_layer.onSelect_limit();">
 <option>请选择要排除的公司</option>
-<option c_name="成都希德电子信息技术有限公司" value="CC702220820">成都希德电子信息技术有限公司</option> </select>
+</select>
 <input class="btn_submit01 f_left m_left10 __ga__button_forbidcompwithsou_forbidcomp_forbid_001" id="close_save_com_layer" type="button" value=""/>
 </div>
 <div class="line_bottom m_right10 ">
@@ -1308,60 +1270,60 @@ function  widfn(){
 </div>
 </div>
 <script src="/assets/javascript/company-layer.js" type="text/javascript"></script>
-<script type="text/javascript">
-    /*排除公司*/
-    $(document).ready(function () {
-        $(".del_company").click( //点击排除公司显示弹层
-            function () {
-                var jqalertbox = $(".alert_box").get(0);
-                /*var oDiv = document.getElementById('div_01');
-                var jqalertbox_top = parseInt(oDiv.style.top) - $(".alert_box").height() + 63
-                jqalertbox.style.top = parseInt(jqalertbox_top) + 'px';*/
-                if ($(".alert_box")[0].style.display == "none") {
-                    $(".alert_box").show();
-                    if (unit_layer != undefined) {
-                        unit_layer.init_remove_comps();
-                    }
-                    //  监控事件触发
-                    dyweTrackEvent('forbidcompwithsou', 'showfcdiv');
-                }
-            });
-        $(".alt_close01").click( //关闭弹层
-            function () {
-                //  监控事件触发
-                $(".alert_box").hide();
-                dyweTrackEvent('forbidcompwithsou', 'cancelfc');
-            });
-    });
+<script type="text/javascript">
+    /*排除公司*/
+    $(document).ready(function () {
+        $(".del_company").click( //点击排除公司显示弹层
+            function () {
+                var jqalertbox = $(".alert_box").get(0);
+                /*var oDiv = document.getElementById('div_01');
+                var jqalertbox_top = parseInt(oDiv.style.top) - $(".alert_box").height() + 63
+                jqalertbox.style.top = parseInt(jqalertbox_top) + 'px';*/
+                if ($(".alert_box")[0].style.display == "none") {
+                    $(".alert_box").show();
+                    if (unit_layer != undefined) {
+                        unit_layer.init_remove_comps();
+                    }
+                    //  监控事件触发
+                    dyweTrackEvent('forbidcompwithsou', 'showfcdiv');
+                }
+            });
+        $(".alt_close01").click( //关闭弹层
+            function () {
+                //  监控事件触发
+                $(".alert_box").hide();
+                dyweTrackEvent('forbidcompwithsou', 'cancelfc');
+            });
+    });
 </script>
 <div class="div_01_main">
 <div class="btn_right_font font14" id="div_01">
 <span><a class="del_company" href="javascript:void(0) ">排除公司<b class="f_number m_left3"></b></a></span>
 <span class="dsp_none" id="go_top_layer">
-<a class="back_top" href="javascript:void(0) ">
-                        返回顶部
+<a class="back_top" href="javascript:void(0) ">
+                        返回顶部
                     </a>
 </span>
 </div>
 </div>
 </div>
 <div class="sou-collect" id="sou-collect">
-<div class="collect-title" id="sou-collect-title">
+<div class="collect-title" id="sou-collect-title">
             收藏成功<!-- 此职位已收藏-->
 </div>
-<div class="collect-content" id="sou-collect-content">
-            您可以在<a href="http://my.zhaopin.com/myzhaopin/jobmng_fav.asp" target="_blank">职位收藏夹</a>中查看
+<div class="collect-content" id="sou-collect-content">
+            您可以在<a href="http://my.zhaopin.com/myzhaopin/jobmng_fav.asp" target="_blank">职位收藏夹</a>中查看
         </div>
 </div>
-<div class="relucss_tc">
-        保存成功
+<div class="relucss_tc">
+        保存成功
     </div>
 <div class="contentTip">
 <img alt="" src="http://img00.zhaopin.cn/2012/other/search/images/success.gif"/>
 </div>
 <div class="content" id="content">
 <div class="title">
-<span class="titleclose close"></span>您对搜索有什么意见或者建议?(选填)
+<span class="titleclose close"></span>您对搜索有什么意见或者建议?(选填)
         </div>
 <textarea id="advise" maxlength="500" name="content"></textarea>
 <input class="close confirm" id="sugesstion" type="button" value="确定"/>
@@ -1378,175 +1340,175 @@ function  widfn(){
 <script src="/assets/javascript/searchresult.js?v=20160226" type="text/javascript"></script>
 <script src="/assets/javascript/jquery.cookie.js" type="text/javascript"></script>
 <script src="/assets/javascript/sou_list.js?v=20141028" type="text/javascript"></script>
-<script type="text/javascript">
-        function resetCondition() {
-            $('#c1,#c2,#c3,#c4,#c9,#c10,#c11,#c12,#c13,#c15,#c16,#c17,#c18,#c19,#c20,#c21,#c22,#c23').val('');
-        }
-        var count = $('.search_yx_tj').find('em').text();
-        var url4zpAnalytics = document.location.pathname + document.location.search + '&rt=' + count;
-
-        function dyweTrackEventExpo(category, action, ids) {
-            function ed(d, a) {
-                var c = encodeURIComponent;
-                return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
-            }
-
-            var i = new Image(1, 1);
-            var e = document.location;
-            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*"
-                + action + ")&dywehn=" + ed(e.hostname) + "&expo=" + ids;
-        }
-
-        $(document).ready(function () {
-            if (document.getElementById("vacancyids")) {
-                var vacancyids = document.getElementById("vacancyids").value;
-                dyweTrackEventExpo('jobs', 'expo', vacancyids);
-            }
-
-            var adgroup = document.getElementById("adgroups").value;
-            if (adgroup != "") {
-                var adgroups = adgroup.split(',');
-                for (var group in adgroups) {
-                    dyweTrackEvent('sou_jz_test', adgroups[group]);
-                }
-            }
-        });
+<script type="text/javascript">
+        function resetCondition() {
+            $('#c1,#c2,#c3,#c4,#c9,#c10,#c11,#c12,#c13,#c15,#c16,#c17,#c18,#c19,#c20,#c21,#c22,#c23').val('');
+        }
+        var count = $('.search_yx_tj').find('em').text();
+        var url4zpAnalytics = document.location.pathname + document.location.search + '&rt=' + count;
+
+        function dyweTrackEventExpo(category, action, ids) {
+            function ed(d, a) {
+                var c = encodeURIComponent;
+                return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
+            }
+
+            var i = new Image(1, 1);
+            var e = document.location;
+            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*"
+                + action + ")&dywehn=" + ed(e.hostname) + "&expo=" + ids;
+        }
+
+        $(document).ready(function () {
+            if (document.getElementById("vacancyids")) {
+                var vacancyids = document.getElementById("vacancyids").value;
+                dyweTrackEventExpo('jobs', 'expo', vacancyids);
+            }
+
+            var adgroup = document.getElementById("adgroups").value;
+            if (adgroup != "") {
+                var adgroups = adgroup.split(',');
+                for (var group in adgroups) {
+                    dyweTrackEvent('sou_jz_test', adgroups[group]);
+                }
+            }
+        });
     </script>
-<script src="http://img09.zpin.net.cn/2014/common/js/clickheat-original.js" type="text/javascript"></script><noscript><p>noscript</p></noscript><script type="text/javascript"><!--
-clickHeatSite = '7';clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'http://l.zhaopin.com/track.gif';initClickHeat(); //-->
+<script src="http://img09.zpin.net.cn/2014/common/js/clickheat-original.js" type="text/javascript"></script><noscript><p>noscript</p></noscript><script type="text/javascript"><!--
+clickHeatSite = '7';clickHeatGroup = encodeURIComponent(window.location.pathname+window.location.search);clickHeatServer = 'http://l.zhaopin.com/track.gif';initClickHeat(); //-->
 </script>
-<script type="text/javascript">
-
-        $(document).ready(function () {
-
-            $(window).bind("scroll resize load", function () {
-                var bodyScrollTop = $(window).scrollTop();
-                if (bodyScrollTop == 0) {
-                    $("#go_top_layer").hide();
-                } else {
-                    $("#go_top_layer").show();
-                }
-                var o = $('#div_01');
-                var offsetY = $(window).height() - o.height() + $(window).scrollTop() - 200;
-
-            });
-            $(".back_top").click(//定义返回顶部点击向上滚动的动画
-                function () {
-                    $('html,body').animate({ scrollTop: 0 }, 300);
-                });
-        });
+<script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(window).bind("scroll resize load", function () {
+                var bodyScrollTop = $(window).scrollTop();
+                if (bodyScrollTop == 0) {
+                    $("#go_top_layer").hide();
+                } else {
+                    $("#go_top_layer").show();
+                }
+                var o = $('#div_01');
+                var offsetY = $(window).height() - o.height() + $(window).scrollTop() - 200;
+
+            });
+            $(".back_top").click(//定义返回顶部点击向上滚动的动画
+                function () {
+                    $('html,body').animate({ scrollTop: 0 }, 300);
+                });
+        });
     </script>
-<script type="text/javascript">
-    if (typeof (window['flagZhaopinAnalytics']) == 'undefined' || !window['flagZhaopinAnalytics']) {
-        var _dyweq = _dyweq || [];
-        _dyweq.push(['_setAccount', window['acc4zpAnalytics'] || 'log000001']);
-        _dyweq.push(['_setDomainName', window['dom4zpAnalytics'] || '.zhaopin.com']);
-        if (window['url4zpAnalytics']) _dyweq.push(['_trackPageview', url4zpAnalytics]);
-        else _dyweq.push(['_trackPageview']);
-
-        (function () {
-            var dywe = document.createElement('script');
-            dywe.type = 'text/javascript';
-            dywe.async = true;
-            dywe.src = 'http://img01.zhaopin.cn/2012/js/dywe.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(dywe, s);
-        })();
-    }
-
-    function loadScript(url, callback) {
-        var script = document.createElement("script")
-        script.type = "text/javascript";
-        if (script.readyState) {
-            script.onreadystatechange = function () {
-                if (script.readyState == "loaded" || script.readyState == "complete") {
-                    script.onreadystatechange = null;
-                    callback();
-                }
-            };
-        } else {
-            script.onload = function () {
-                callback();
-            };
-        }
-        script.src = url;
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(script, s);
-    }
-
-    if (typeof (window['flagGoogleAnalytics']) == 'undefined' || !window['flagGoogleAnalytics']) {
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', window['acc4googleAnalytics'] || 'UA-7874902-2']);
-        _gaq.push(['_setDomainName', window['dom4googleAnalytics'] || 'zhaopin.com']);
-        _gaq.push(['_addOrganic', 'youdao', 'q']);
-        _gaq.push(['_addOrganic', 'sogou', 'query']);
-        _gaq.push(['_addOrganic', 'soso', 'w']);
-        if (window['url4googleAna']) _gaq.push(['_trackPageview', url4googleAna]);
-        else _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    }
-
-
-
-    function recordOutboundLink(link, category, action) {
-        function ed(d, a) {
-            var c = encodeURIComponent;
-            return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
-        }
-        try {
-            _dywet._getTrackerByName()._trackEvent(category, action);
-            try {
-                _gat._getTrackerByName()._trackEvent(category, action);
-            } catch (err) { }
-            if (link.target != "_blank") setTimeout('document.location = "' + link.href + '"', 100);
-        } catch (err) {
-            var i = new Image(1, 1);
-            var e = document.location;
-            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*" + action + ")&dywehn=" + ed(e.hostname) + "&dywep=" + ed(e.pathname + e.search, true);
-        }
-    }
-    function dyweTrackEvent(category, action) {
-        function ed(d, a) {
-            var c = encodeURIComponent;
-            return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
-        }
-        try {
-            _dywet._getTrackerByName()._trackEvent(category, action);
-            try {
-                _gat._getTrackerByName()._trackEvent(category, action);
-            } catch (err) { }
-        } catch (err) {
-            var i = new Image(1, 1);
-            var e = document.location;
-            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*" + action + ")&dywehn=" + ed(e.hostname) + "&dywep=" + ed(e.pathname + e.search, true);
-        }
-    }
+<script type="text/javascript">
+    if (typeof (window['flagZhaopinAnalytics']) == 'undefined' || !window['flagZhaopinAnalytics']) {
+        var _dyweq = _dyweq || [];
+        _dyweq.push(['_setAccount', window['acc4zpAnalytics'] || 'log000001']);
+        _dyweq.push(['_setDomainName', window['dom4zpAnalytics'] || '.zhaopin.com']);
+        if (window['url4zpAnalytics']) _dyweq.push(['_trackPageview', url4zpAnalytics]);
+        else _dyweq.push(['_trackPageview']);
+
+        (function () {
+            var dywe = document.createElement('script');
+            dywe.type = 'text/javascript';
+            dywe.async = true;
+            dywe.src = 'http://img01.zhaopin.cn/2012/js/dywe.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(dywe, s);
+        })();
+    }
+
+    function loadScript(url, callback) {
+        var script = document.createElement("script")
+        script.type = "text/javascript";
+        if (script.readyState) {
+            script.onreadystatechange = function () {
+                if (script.readyState == "loaded" || script.readyState == "complete") {
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function () {
+                callback();
+            };
+        }
+        script.src = url;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(script, s);
+    }
+
+    if (typeof (window['flagGoogleAnalytics']) == 'undefined' || !window['flagGoogleAnalytics']) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', window['acc4googleAnalytics'] || 'UA-7874902-2']);
+        _gaq.push(['_setDomainName', window['dom4googleAnalytics'] || 'zhaopin.com']);
+        _gaq.push(['_addOrganic', 'youdao', 'q']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        if (window['url4googleAna']) _gaq.push(['_trackPageview', url4googleAna]);
+        else _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    }
+
+
+
+    function recordOutboundLink(link, category, action) {
+        function ed(d, a) {
+            var c = encodeURIComponent;
+            return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
+        }
+        try {
+            _dywet._getTrackerByName()._trackEvent(category, action);
+            try {
+                _gat._getTrackerByName()._trackEvent(category, action);
+            } catch (err) { }
+            if (link.target != "_blank") setTimeout('document.location = "' + link.href + '"', 100);
+        } catch (err) {
+            var i = new Image(1, 1);
+            var e = document.location;
+            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*" + action + ")&dywehn=" + ed(e.hostname) + "&dywep=" + ed(e.pathname + e.search, true);
+        }
+    }
+    function dyweTrackEvent(category, action) {
+        function ed(d, a) {
+            var c = encodeURIComponent;
+            return c instanceof Function ? (a ? encodeURI(d) : c(d)) : escape(d);
+        }
+        try {
+            _dywet._getTrackerByName()._trackEvent(category, action);
+            try {
+                _gat._getTrackerByName()._trackEvent(category, action);
+            } catch (err) { }
+        } catch (err) {
+            var i = new Image(1, 1);
+            var e = document.location;
+            i.src = "http://l.zhaopin.com/track_err.gif?dywee=5(" + category + "*" + action + ")&dywehn=" + ed(e.hostname) + "&dywep=" + ed(e.pathname + e.search, true);
+        }
+    }
 </script>
 <link href="http://img00.zhaopin.cn/2012/css/headfoot/foot_common.css" rel="stylesheet" type="text/css"/>
 <div class="link">
-<div class="link_1"> <a href="http://special.zhaopin.com/sh/2009/aboutus/about.html" onmousedown="return AdsClick(121115223,'zhilianjieshao')" rel="nofollow" target="_blank">智联介绍</a> | <a href="http://www.zhaopin.com/sitemap.html" target="_blank">网站地图</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/join.html" onmousedown="return AdsClick(121115223,'jiaruzhilian')" rel="nofollow" target="_blank">加入智联</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/law.html" onmousedown="return AdsClick(121115223,'falvshengming')" rel="nofollow" target="_blank">法律声明</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/secrecy.html" onmousedown="return AdsClick(121115223,'baomichengnuo')" rel="nofollow" target="_blank">保密承诺</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/contact.html" onmousedown="return AdsClick(121115223,'lianxifangshi')" rel="nofollow" target="_blank">联系方式</a> | <a href="http://jobseeker.zhaopin.com/zhaopin/faq/question.html" onmousedown="return AdsClick(121115223,'changjianwenti')" rel="nofollow" target="_blank">常见问题</a> | <a href="http://ir.zhaopin.com" onmousedown="return AdsClick(121115223,'touzizheguanxi')" rel="nofollow" target="_blank">Investor Relations</a> 
-			您对 Zhaopin.com 有任何建议或意见请<a href="#" onclick="openFeedback('http://interact.zhaopin.com/feedback/feedback.asp');return false;" onmousedown="return AdsClick(121115223,' contactus')" rel="nofollow">联系我们</a><br>
-未经zhaopin.com 同意，不得转载本网站之所有招聘信息及作品
- 智联招聘网版权所有 © 1997-2016<br>
-京ICP备12025925号 电信业务审批[2001]字第233号函
+<div class="link_1"> <a href="http://special.zhaopin.com/sh/2009/aboutus/about.html" onmousedown="return AdsClick(121115223,'zhilianjieshao')" rel="nofollow" target="_blank">智联介绍</a> | <a href="http://www.zhaopin.com/sitemap.html" target="_blank">网站地图</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/join.html" onmousedown="return AdsClick(121115223,'jiaruzhilian')" rel="nofollow" target="_blank">加入智联</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/law.html" onmousedown="return AdsClick(121115223,'falvshengming')" rel="nofollow" target="_blank">法律声明</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/secrecy.html" onmousedown="return AdsClick(121115223,'baomichengnuo')" rel="nofollow" target="_blank">保密承诺</a> | <a href="http://special.zhaopin.com/sh/2009/aboutus/contact.html" onmousedown="return AdsClick(121115223,'lianxifangshi')" rel="nofollow" target="_blank">联系方式</a> | <a href="http://jobseeker.zhaopin.com/zhaopin/faq/question.html" onmousedown="return AdsClick(121115223,'changjianwenti')" rel="nofollow" target="_blank">常见问题</a> | <a href="http://ir.zhaopin.com" onmousedown="return AdsClick(121115223,'touzizheguanxi')" rel="nofollow" target="_blank">Investor Relations</a> 
+			您对 Zhaopin.com 有任何建议或意见请<a href="#" onclick="openFeedback('http://interact.zhaopin.com/feedback/feedback.asp');return false;" onmousedown="return AdsClick(121115223,' contactus')" rel="nofollow">联系我们</a><br>
+未经zhaopin.com 同意，不得转载本网站之所有招聘信息及作品
+ 智联招聘网版权所有 © 1997-2016<br>
+京ICP备12025925号 电信业务审批[2001]字第233号函
       <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502002133" style="height:20px;line-height:20px;margin: 0 0 0 5px; color:#939393;" target="_blank">京公网安备11010502002133号</a>
 </br></br></div>
 </div>
 <script src="http://img01.zhaopin.cn/2014/common/js/index_ads.js" type="text/javascript"></script>
-<script type="text/javascript">
-function openFeedback(strTarget){
-	
-	window.open(strTarget, "_blank","width=1,height=1,left=100,top=60,scrollbars=0,overflow=auto,status=0");
-	}
-	
+<script type="text/javascript">
+function openFeedback(strTarget){
+	
+	window.open(strTarget, "_blank","width=1,height=1,left=100,top=60,scrollbars=0,overflow=auto,status=0");
+	}
+	
 </script>
 </body>
 </html>

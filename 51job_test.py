@@ -26,10 +26,10 @@ def crawler(keyword,start_page):
         r = requests.get(joblist_url.format(urllib.quote(keyword),i),cookies=cookies,)
         r.encoding = 'gb2312'
         soup = BeautifulSoup(r.text,'html.parser')
-        with open('51job_html\\'+str(i)+'.html','w') as f:
+        with open('51job_html/'+keyword+str(i)+'.html','w') as f:
             f.write(str(soup))
         print process_51job.process(soup)
-        with open('51job_pick\\'+str(i)+'.pick','w') as f:
+        with open('51job_pick/'+keyword+str(i)+'.pick','w') as f:
             f.write(pickle.dumps(process_51job.process(soup)))
         print u'已爬取'+str(i)+u'个网页'
     print '爬取完毕，请签收'
