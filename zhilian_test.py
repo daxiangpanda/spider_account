@@ -45,7 +45,12 @@ def crawler(keyword,start_page):
         while True:
             if len(str(soup))<2000:
                 resoup+=1
-                soup = urlfunc.url_open(base_url+str(start_page))
+                while True:
+                    try:
+                        soup = urlfunc.url_open(base_url+str(start_page))
+                        break
+                    except socket.timeout:
+                        print 'socket超时'
                 print u'长度不对啊，真是的'
                 print str(resoup)
                 time.sleep(random.random())
