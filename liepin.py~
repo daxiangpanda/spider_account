@@ -1,13 +1,10 @@
-#!/usr/bin/env python
 # encoding: utf-8
 import urllib2
 import random
-import time
 from bs4 import BeautifulSoup
-import sys
-sys.setrecursionlimit(1000000)
-import socket
-socket.setdefaulttimeout(10)
+baseurl = r'https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=-1&amp;sortFlag=15&searchField=1&amp;key=%E4%BC%9A%E8%AE%A1&industries=&jobTitles=&dqs=280020&amp;compscale=&compkind=&ckid=837c183a94754c9b&curPage='
+# https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=-1&amp;sortFlag=15&searchField=1&amp;key=%E4%BC%9A%E8%AE%A1&industries=&jobTitles=&dqs=280020&amp;compscale=&compkind=&ckid=837c183a94754c9b&curPage=1
+# https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=1&amp;sortFlag=15&searchField=1&;key=%E4%BC%9A%E8%AE%A1&amp;industries=&jobTitles=&dqs=280&compscale=&amp;compkind=
 def url_open(url):
     req = urllib2.Request(url)
     header1 = 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5'
@@ -30,18 +27,47 @@ def url_open(url):
     # proxy_support = urllib2.ProxyHandler({'http':proxy})
     # opener = urllib2.build_opener(proxy_support)
     # urllib2.install_opener(opener)
-    num_error=0
-    while True:
-        try:
-            response = urllib2.urlopen(req)
-            num_error=0
-            break
-        except urllib2.URLError:
-            num_error+=1
-            print u'发生第{0}次错误，正在重新爬取'.format(str(num_error))
-            time.sleep(random.random())
-            continue
+    response = urllib2.urlopen(req)
     html = response.read()
-    soup = BeautifulSoup(html,"html.parser")
     #print html
-    return soup
+    return html
+
+def process(soup):
+    result = []
+    for i in soup.find_all('div',class_='sojob-item-main clearfix'):
+        # print i
+        per_result = {}
+        per_result['job_title'] = i.find('h3')['title']
+        # print per_result['job_title']
+        per_result['job_link'] = i.find_all('a',target = '_blank')[0]['href']
+        per_result['job_name'] = i.find_all('a',target = '_blank')[0].string
+        per_result['job_condition'] = i.find('p',class_='condition clearfix')['title']
+        try:
+            per_result['job_companylink'] = i.find_all('a',target = '_blank')[1]['href']
+            per_result['job_companyname'] = i.find_all('a',target = '_blank')[1].string
+        except KeyError:
+            per_result['job_companylink'] = ''
+            per_result['job_companyname'] = ''
+        per_result['job_companyfield'] = i.find('p',class_='field-financing').find('span').string
+        per_result['job_goods'] = ''
+
+        goods = i.find('p',class_='temptation clearfix').find_all('span')
+        for ii in goods:
+            per_result['job_goods']+=ii.string
+            per_result['job_goods']+=' '
+        result.append(per_result)
+    return result
+num = 0
+result = []
+while True:
+    url = baseurl+str(num)
+    html = url_open(url)
+    soup = BeautifulSoup(html)
+    # print html
+    if len(soup.find_all('div',class_='alert alert-info sojob-no-result-alert')):
+        print 'crawl complete'
+        break
+    else:
+        print process(soup)
+    num+=1
+
