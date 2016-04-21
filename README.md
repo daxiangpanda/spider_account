@@ -4,3 +4,6 @@
  将信息清洗，并传入数据库  
  django网页建设  
  
+ ps:add guazi secar  
+ 
+ 
