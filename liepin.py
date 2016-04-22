@@ -3,7 +3,7 @@ import urllib2
 import random
 import urlfunc
 from bs4 import BeautifulSoup
-baseurl = r'https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=-1&amp;sortFlag=15&searchField=1&amp;key=%E4%BC%9A%E8%AE%A1&industries=&jobTitles=&dqs=280020&amp;compscale=&compkind=&ckid=837c183a94754c9b&curPage='
+baseurl=r'https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&clean_condition=&jobKind=&isAnalysis=&init=-1&sortFlag=15&searchField=1&key=%E4%BC%9A%E8%AE%A1&industries=&jobTitles=&dqs=280&compscale=&compkind=&ckid=a92d6f07f665295d&curPage={0}'
 # https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=-1&amp;sortFlag=15&searchField=1&amp;key=%E4%BC%9A%E8%AE%A1&industries=&jobTitles=&dqs=280020&amp;compscale=&compkind=&ckid=837c183a94754c9b&curPage=1
 # https://www.liepin.com/zhaopin/?pubTime=&salary=&searchType=1&amp;clean_condition=&jobKind=&isAnalysis=&amp;init=1&amp;sortFlag=15&searchField=1&;key=%E4%BC%9A%E8%AE%A1&amp;industries=&jobTitles=&dqs=280&compscale=&amp;compkind=
 
@@ -34,11 +34,15 @@ num = 0
 job_num = 0
 result = []
 while True:
-
-    url = baseurl+str(num)
+    f=open('liepin_account.txt','wa')
+    url = baseurl.format(str(num))
     soup = urlfunc.url_open(url)
     if len(soup.find_all('div',class_='alert alert-info sojob-no-result-alert')):
         print 'crawl complete'
+        for i in result:
+            f.write(i.encode('utf-8'))
+            f.write('\n')
+        f.close()
         break
     else:
         # print process(soup)
@@ -48,6 +52,8 @@ while True:
             for ii in i:
                 if i[ii]:
                     print ii+':'+(len('job_companyfield')-len(ii))*' '+i[ii]
+                    result.append(ii+':'+(len('job_companyfield')-len(ii))*' '+i[ii])
                 else:
                     print ii+':'+'none'
+                    result.append(ii+':'+'none')
     num+=1

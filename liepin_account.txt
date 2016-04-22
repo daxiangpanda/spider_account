@@ -1,0 +1,2009 @@
+
+job_goods:      绩效奖金 股票期权 交通补助 通讯津贴 午餐补助 扁平管理 领导好 团队聚餐 五险一金 岗位晋升 管理规范 优秀员工奖 发展空间大 
+job_companyfield:影视/媒体/艺术/文化/出版
+job_companyname: 成都上视文化传媒有限公司
+job_link:        https://job.liepin.com/513_5135057/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=0&totalIdx=0&imscid=R000000071
+job_condition:   5-7万_成都-青羊区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8276974/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      绩效奖金 交通补助 通讯津贴 定期体检 年度旅游 扁平管理 岗位晋升 技能培训 午餐补助 领导好 住宿 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川恒信伟业投资有限公司
+job_link:        https://job.liepin.com/458_4586068/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=1&totalIdx=1&imscid=R000000071
+job_condition:   面议_泸州_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8122725/
+job_name:        集团总部会计主管
+job_title:       招聘集团总部会计主管
+
+job_goods:      年底双薪 绩效奖金 带薪年假 交通补助 午餐补助 节日礼物 五险一金 管理规范 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 四川九洲北斗导航与位置服务有限公司
+job_link:        https://job.liepin.com/497_4971095/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=2&totalIdx=2&imscid=R000000071
+job_condition:   4-6万_成都-高新区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8590020/
+job_name:        项目会计
+job_title:       招聘项目会计
+
+job_goods:      弹性工作 五险一金 节日礼物 午餐补助 带薪年假 
+job_companyfield:计算机软件
+job_companyname: 成都深思科技有限公司
+job_link:        https://job.liepin.com/506_5063887/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=3&totalIdx=3&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8288562/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      五险一金 包吃包住 节日礼物 交通补助 通讯津贴 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077046/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=4&totalIdx=4&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8497120/
+job_name:        销售会计
+job_title:       招聘销售会计
+
+job_goods:      五险一金 绩效奖金 交通补助 午餐补助 带薪年假 定期体检 年度旅游 节日礼物 
+job_companyfield:环保
+job_companyname: 海天水务集团股份公司
+job_link:        https://job.liepin.com/503_5034875/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=5&totalIdx=5&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7904713/
+job_name:        集团会计
+job_title:       招聘集团会计
+
+job_goods:      带薪年假 五险一金 节日礼物 技能培训 
+job_companyfield:制药/生物工程
+job_companyname: 成都康弘药业集团股份有限公司
+job_link:        https://job.liepin.com/503_5039390/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=6&totalIdx=6&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7935093/
+job_name:        区域会计
+job_title:       招聘区域会计
+
+job_goods:      五险一金 年底双薪 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川圣唐古驿建筑装饰设计工程有限公司
+job_link:        https://job.liepin.com/498_4983148/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=7&totalIdx=7&imscid=R000000071
+job_condition:   3-4万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8645350/
+job_name:        会计助理
+job_title:       招聘会计助理
+
+job_goods:      五险一金 包吃包住 交通补助 通讯津贴 节日礼物 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077053/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=8&totalIdx=8&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8497120/
+job_name:        上市财务会计
+job_title:       招聘上市财务会计
+
+job_goods:      节日礼物 岗位晋升 全勤奖 发展空间大 高额奖金 团队聚餐 绩效奖金 定期体检 
+job_companyfield:医疗/保健/美容/卫生服务
+job_companyname: 成都优服健康管理有限公司
+job_link:        https://job.liepin.com/490_4902214/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=9&totalIdx=9&imscid=R000000071
+job_condition:   4-6万_成都-武侯区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8703636/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      五险一金 年底双薪 绩效奖金 包吃包住 包吃包住 交通补助 通讯津贴 带薪年假 
+job_companyfield:none
+job_companyname: 四川欣联欣投资管理有限责任公司
+job_link:        https://job.liepin.com/506_5062550/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=10&totalIdx=10&imscid=R000000071
+job_condition:   5-7万_成都-高新区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8254328/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 午餐补助 通讯津贴 绩效奖金 交通补助 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 北京东方中原数码科技有限公司
+job_link:        https://job.liepin.com/503_5032633/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=11&totalIdx=11&imscid=R000000071
+job_condition:   4-5万_成都-高新区_学历不限_经验不限
+job_companylink: https://company.liepin.com/7892929/
+job_name:        会计（成都）
+job_title:       招聘会计（成都）
+
+job_goods:      岗位晋升 发展空间大 绩效奖金 领导好 管理规范 节日礼物 团队聚餐 通讯津贴 带薪年假 法定五险 技能培训 
+job_companyfield:教育/培训/学术/科研/院校
+job_companyname: 成都市正吉教育咨询有限公司
+job_link:        https://job.liepin.com/511_5116435/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=12&totalIdx=12&imscid=R000000071
+job_condition:   3-4万_成都-青羊区_学历不限_1年工作经验
+job_companylink: https://company.liepin.com/8301250/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      绩效奖金 领导好 发展空间大 带薪年假 交通补助 通讯津贴 节日礼物 全勤奖 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都宏星信息科技有限公司
+job_link:        https://job.liepin.com/497_4977148/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=13&totalIdx=13&imscid=R000000071
+job_condition:   6-8万_成都-锦江区_学历不限_2年工作经验
+job_companylink: https://company.liepin.com/7937620/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      年底双薪 绩效奖金 带薪年假 定期体检 领导好 岗位晋升 管理规范 公司规模大 五险一金 团队聚餐 年度旅游 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 成都正合联众网络科技有限公司
+job_link:        https://job.liepin.com/495_4957956/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=14&totalIdx=14&imscid=R000000071
+job_condition:   3-4万_成都-武侯区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8728215/
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:制药/生物工程
+job_companyname: 四川好医生药业集团有限公司
+job_link:        https://job.liepin.com/502_5027489/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=15&totalIdx=15&imscid=R000000071
+job_condition:   4-5万_成都-金牛区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7863767/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 交通补助 午餐补助 通讯津贴 
+job_companyfield:none
+job_companyname: 四川省商业集团有限公司
+job_link:        https://job.liepin.com/503_5035341/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=16&totalIdx=16&imscid=R000000071
+job_condition:   7-9万_成都-青羊区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/7907559/
+job_name:        会计（电商）
+job_title:       招聘会计（电商）
+
+job_goods:      发展空间大 节日礼物 年底双薪 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川一品天下置业有限公司
+job_link:        https://job.liepin.com/401_4013712/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=17&totalIdx=17&imscid=R000000071
+job_condition:   4-6万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7931831/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      五险一金 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 杭州轩潮科技有限公司
+job_link:        https://job.liepin.com/504_5045349/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=18&totalIdx=18&imscid=R000000071
+job_condition:   4-5万_成都-双流县_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7986963/
+job_name:        成都仓库出纳（包住）
+job_title:       招聘成都仓库出纳（包住）
+
+job_goods:      绩效奖金 五险一金 节日礼物 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 成都振芯科技股份有限公司
+job_link:        https://job.liepin.com/507_5078629/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=19&totalIdx=19&imscid=R000000071
+job_condition:   5-7万_成都-高新区_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/8516203/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 午餐补助 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川汇日央扩置业有限公司
+job_link:        https://job.liepin.com/510_5109042/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=20&totalIdx=20&imscid=R000000071
+job_condition:   4-6万_成都-武侯区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7999695/
+job_name:        财务/会计助理
+job_title:       招聘财务/会计助理
+
+job_goods:      绩效奖金 交通补助 通讯津贴 定期体检 节日礼物 
+job_companyfield:交通/物流/运输
+job_companyname: 成都居家通物流有限责任公司
+job_link:        https://job.liepin.com/504_5041488/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=21&totalIdx=21&imscid=R000000071
+job_condition:   5-7万_成都-武侯区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7951445/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      弹性工作 带薪年假 五险一金 绩效奖金 节日礼物 技能培训 交通补助 午餐补助 通讯津贴 
+job_companyfield:制药/生物工程
+job_companyname: 杭州百替生物技术有限公司
+job_link:        https://job.liepin.com/504_5046967/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=22&totalIdx=22&imscid=R000000071
+job_condition:   6-8万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8012396/
+job_name:        出纳/会计/财务
+job_title:       招聘出纳/会计/财务
+
+job_goods:      年底双薪 发展空间大 绩效奖金 交通补助 通讯津贴 午餐补助 节日礼物 团队聚餐 
+job_companyfield:租赁服务
+job_companyname: 成都市锦辰博达贸易有限公司
+job_link:        https://job.liepin.com/510_5109923/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=23&totalIdx=23&imscid=R000000071
+job_condition:   4-6万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8686276/
+job_name:        会计助理
+job_title:       招聘会计助理
+
+job_goods:      岗位晋升 发展空间大 绩效奖金 领导好 管理规范 节日礼物 团队聚餐 通讯津贴 带薪年假 法定五险 技能培训 
+job_companyfield:教育/培训/学术/科研/院校
+job_companyname: 成都市正吉教育咨询有限公司
+job_link:        https://job.liepin.com/511_5116473/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=24&totalIdx=24&imscid=R000000071
+job_condition:   3-4万_成都-青羊区_学历不限_1年工作经验
+job_companylink: https://company.liepin.com/8301250/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      五险一金 绩效奖金 包吃包住 交通补助 通讯津贴 带薪年假 节日礼物 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 北京东方中原数码科技有限公司
+job_link:        https://job.liepin.com/503_5032690/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=25&totalIdx=25&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7892929/
+job_name:        会计（广州、成都、沈阳）
+job_title:       招聘会计（广州、成都、沈阳）
+
+job_goods:      带薪年假 上市公司 交通补助 午餐补助 定期体检 岗位晋升 车辆津贴 购房津贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都世茂新城房地产开发有限公司
+job_link:        https://job.liepin.com/498_4989851/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=26&totalIdx=26&imscid=R000000071
+job_condition:   面议_成都-高新区_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8199322/
+job_name:        总账会计
+job_title:       招聘总账会计
+
+job_goods:      绩效奖金 发展空间大 带薪年假 节日礼物 弹性工作 管理规范 岗位晋升 
+job_companyfield:广告/公关/市场推广/会展
+job_companyname: 成都宝鼎文化传播有限公司
+job_link:        https://job.liepin.com/483_4833872/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=27&totalIdx=27&imscid=R000000071
+job_condition:   8-10万_成都-高新区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8676247/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      公司规模大 
+job_companyfield:制药/生物工程
+job_companyname: 西藏诺迪康药业股份有限公司
+job_link:        https://job.liepin.com/512_5126823/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=28&totalIdx=28&imscid=R000000071
+job_condition:   5-7万_成都-锦江区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7967324/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      年底双薪 发展空间大 绩效奖金 午餐补助 节日礼物 领导好 管理规范 技能培训 岗位晋升 团队聚餐 公司规模大 优秀员工奖 五险一金 扁平管理 通讯津贴 年度旅游 
+job_companyfield:农/林/牧/渔
+job_companyname: 四川铁骑力士实业有限公司
+job_link:        https://job.liepin.com/456_4567422/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=29&totalIdx=29&imscid=R000000071
+job_condition:   6-8万_四川省_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/3782834/
+job_name:        会计主管
+job_title:       招聘会计主管
+
+job_goods:      带薪年假 五险一金 绩效奖金 节日礼物 
+job_companyfield:IT服务/系统集成,电子技术/半导体/集成电路,通信(设备/运...
+job_companyname: 成都成电光信科技股份有限公司
+job_link:        https://job.liepin.com/507_5078043/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=30&totalIdx=30&imscid=R000000071
+job_condition:   5-7万_成都-高新区_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8509408/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      办公环境 年底双薪 绩效奖金 带薪年假 交通补助 午餐补助 五险一金 
+job_companyfield:网游/手游
+job_companyname: 成都尼毕鲁科技股份有限公司
+job_link:        https://job.liepin.com/499_4996689/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=31&totalIdx=31&imscid=R000000071
+job_condition:   4-6万_成都-高新区_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/1815720/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      定期体检 节日礼物 五险一金 带薪年假 交通补助 午餐补助 通讯津贴 技能培训 公司规模大 优秀员工奖 生育补贴 团队聚餐 绩效奖金 休闲餐点 管理规范 岗位晋升 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川蓝光和骏实业有限公司
+job_link:        https://job.liepin.com/495_4956287/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=32&totalIdx=32&imscid=R000000071
+job_condition:   7-9万_成都-金牛区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/2218718/
+job_name:        会计（核算方向）
+job_title:       招聘会计（核算方向）
+job_goods:none
+job_companyfield:医疗设备/器械
+job_companyname: 北京诺亚同舟医疗技术有限公司
+job_link:        https://job.liepin.com/504_5048395/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=33&totalIdx=33&imscid=R000000071
+job_condition:   5-7万_成都-武侯区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8024382/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      绩效奖金 节日礼物 通讯津贴 午餐补助 交通补助 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 武汉南国置业股份有限公司
+job_link:        https://job.liepin.com/503_5035728/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=34&totalIdx=34&imscid=R000000071
+job_condition:   7-9万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7908725/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 定期体检 免费班车 节日礼物 五险一金 技能培训 管理规范 全勤奖 优秀员工奖 生日礼金 免费工作餐 提供住宿 
+job_companyfield:制药/生物工程
+job_companyname: 成都青山利康药业有限公司
+job_link:        https://job.liepin.com/470_4701111/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=35&totalIdx=35&imscid=R000000071
+job_condition:   4-6万_成都-双流县_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8642371/
+job_name:        总账会计（青山利康）
+job_title:       招聘总账会计（青山利康）
+job_goods:none
+job_companyfield:none
+job_companyname: 四川省商业集团有限公司
+job_link:        https://job.liepin.com/480_4803952/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=36&totalIdx=36&imscid=R000000071
+job_condition:   10-12万_成都_本科或以上_8年工作经验
+job_companylink: https://company.liepin.com/7907559/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      带薪年假 包吃包住 绩效奖金 技能培训 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川省新天丰商贸有限公司
+job_link:        https://job.liepin.com/503_5037098/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=37&totalIdx=37&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/7916480/
+job_name:        采购会计
+job_title:       招聘采购会计
+
+job_goods:      发展空间大 带薪年假 通讯津贴 午餐补助 定期体检 节日礼物 领导好 五险一金 管理规范 公司规模大 
+job_companyfield:房地产开发/建筑/建材/工程,新能源,农/林/牧/渔
+job_companyname: 通威集团有限公司
+job_link:        https://job.liepin.com/484_4842185/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=38&totalIdx=38&imscid=R000000071
+job_condition:   5-7万_成都-双流县_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/7900582/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      五险一金 包吃包住 交通补助 通讯津贴 节日礼物 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077080/?ckid=a92d6f07f665295d&pageNo=0&pageIdx=39&totalIdx=39&imscid=R000000071
+job_condition:   5-7万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8497120/
+job_name:        上市账务主办会计
+job_title:       招聘上市账务主办会计
+
+job_goods:      带薪年假 五险一金 节日礼物 绩效奖金 
+job_companyfield:制药/生物工程
+job_companyname: 成都康弘药业集团股份有限公司
+job_link:        https://job.liepin.com/503_5039372/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=0&totalIdx=40&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/7935093/
+job_name:        会计核算员
+job_title:       招聘会计核算员
+
+job_goods:      年底双薪 带薪年假 交通补助 通讯津贴 午餐补助 年度旅游 节日礼物 优秀员工奖 
+job_companyfield:医疗设备/器械
+job_companyname: 成都威尔诺生物科技有限公司
+job_link:        https://job.liepin.com/490_4903780/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=1&totalIdx=41&imscid=R000000071
+job_condition:   4-6万_成都-高新区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8588361/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      岗位晋升 领导好 管理规范 五险一金 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川天地飘香投资管理有限公司
+job_link:        https://job.liepin.com/476_4763256/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=2&totalIdx=42&imscid=R000000071
+job_condition:   8-10万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/5635491/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 发展空间大 公司规模大 交通补助 通讯津贴 节日礼物 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 成都先进功率半导体股份有限公司
+job_link:        https://job.liepin.com/498_4986751/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=3&totalIdx=43&imscid=R000000071
+job_condition:   6-8万_成都-高新西_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8241922/
+job_name:        财务部会计
+job_title:       招聘财务部会计
+
+job_goods:      年底双薪 发展空间大 绩效奖金 午餐补助 节日礼物 领导好 管理规范 技能培训 岗位晋升 团队聚餐 公司规模大 优秀员工奖 五险一金 扁平管理 通讯津贴 年度旅游 
+job_companyfield:农/林/牧/渔
+job_companyname: 四川铁骑力士实业有限公司
+job_link:        https://job.liepin.com/414_4144311/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=4&totalIdx=44&imscid=R000000071
+job_condition:   6-8万_成都-双流县_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/3782834/
+job_name:        会计主管
+job_title:       招聘会计主管
+job_goods:none
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川省鼎粮实业有限公司
+job_link:        https://job.liepin.com/508_5081054/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=5&totalIdx=45&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8542521/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 包吃包住 交通补助 通讯津贴 节日礼物 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077076/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=6&totalIdx=46&imscid=R000000071
+job_condition:   5-7万_成都-高新区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8497120/
+job_name:        销售会计主管
+job_title:       招聘销售会计主管
+
+job_goods:      发展空间大 节日礼物 年底双薪 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川一品天下置业有限公司
+job_link:        https://job.liepin.com/401_4013680/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=7&totalIdx=47&imscid=R000000071
+job_condition:   6-8万_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7931831/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      年底双薪 带薪年假 五险一金 领导好 优秀员工奖 全勤奖 发展空间大 绩效奖金 
+job_companyfield:原材料及加工
+job_companyname: 四川聚釜有盛新材料有限公司
+job_link:        https://job.liepin.com/482_4825862/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=8&totalIdx=48&imscid=R000000071
+job_condition:   4-6万_成都-高新西_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8596357/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      发展空间大 带薪年假 交通补助 通讯津贴 午餐补助 年度旅游 五险一金 绩效奖金 
+job_companyfield:旅游/酒店/餐饮服务/生活服务
+job_companyname: 四川顺心餐饮投资管理有限公司
+job_link:        https://job.liepin.com/510_5107745/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=9&totalIdx=49&imscid=R000000071
+job_condition:   3-5万_成都-高新区_中专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7885057/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      年底双薪 绩效奖金 发展空间大 带薪年假 公司规模大 五险一金 团队聚餐 节日礼物 岗位晋升 全勤奖 优秀员工奖 午餐补助 
+job_companyfield:规划/设计/装潢
+job_companyname: 成都丰立装饰工程有限公司
+job_link:        https://job.liepin.com/476_4761998/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=10&totalIdx=50&imscid=R000000071
+job_condition:   5-6万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8436132/
+job_name:        有房有担保会计
+job_title:       招聘有房有担保会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川利翔建设项目管理有限公司
+job_link:        https://job.liepin.com/505_5050065/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=11&totalIdx=51&imscid=R000000071
+job_condition:   4-5万_成都-金牛区_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8043204/
+job_name:        应收会计
+job_title:       招聘应收会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 交通补助 五险一金 岗位晋升 优秀员工奖 团队聚餐 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都数之联科技有限公司
+job_link:        https://job.liepin.com/467_4675754/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=12&totalIdx=52&imscid=R000000071
+job_condition:   8-10万_成都-郫县_本科或以上_经验不限
+job_companylink: https://company.liepin.com/7983551/
+job_name:        会计师
+job_title:       招聘会计师
+
+job_goods:      年底双薪 绩效奖金 带薪年假 午餐补助 五险一金 交通补助 通讯津贴 节日礼物 定期体检 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 上海正置投资发展有限公司
+job_link:        https://job.liepin.com/512_5122259/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=13&totalIdx=53&imscid=R000000071
+job_condition:   10-15万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7994256/
+job_name:        管理会计
+job_title:       招聘管理会计
+
+job_goods:      管理规范 五险一金 节日福利 绩效奖金 岗位晋升 年底双薪 子女入园优惠 
+job_companyfield:教育/培训/学术/科研/院校
+job_companyname: 北京二十一世纪幼教集团
+job_link:        https://job.liepin.com/486_4867060/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=14&totalIdx=54&imscid=R000000071
+job_condition:   3-4万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/1479878/
+job_name:        成都幼儿园出纳
+job_title:       招聘成都幼儿园出纳
+
+job_goods:      午餐补助 通讯津贴 节日礼物 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 南京一挖挖网络科技有限公司
+job_link:        https://job.liepin.com/503_5039828/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=15&totalIdx=55&imscid=R000000071
+job_condition:   5-7万_成都-武侯区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/7938115/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 发展空间大 绩效奖金 
+job_companyfield:none
+job_companyname: 四川峰辉绿化工程有限公司
+job_link:        https://job.liepin.com/511_5119536/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=16&totalIdx=56&imscid=R000000071
+job_condition:   6-8万_成都-高新区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/7919543/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 绩效奖金 交通补助 通讯津贴 午餐补助 节日礼物 领导好 扁平管理 管理规范 技能培训 岗位晋升 团队聚餐 休闲餐点 优秀员工奖 五险 
+job_companyfield:原材料及加工
+job_companyname: 成都美奢锐新材料有限公司
+job_link:        https://job.liepin.com/510_5102808/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=17&totalIdx=57&imscid=R000000071
+job_condition:   5-7万_成都-龙泉驿_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8665409/
+job_name:        工业会计
+job_title:       招聘工业会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川利翔建设项目管理有限公司
+job_link:        https://job.liepin.com/505_5050062/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=18&totalIdx=58&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8043204/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 五险一金 定期体检 管理规范 交通补助 通讯津贴 节日礼物 岗位晋升 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 成都云端金融服务外包有限公司
+job_link:        https://job.liepin.com/499_4995490/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=19&totalIdx=59&imscid=R000000071
+job_condition:   7-8万_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8530404/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      发展空间大 五险一金 公司规模大 岗位晋升 技能培训 免费班车 午餐补助 
+job_companyfield:汽车/摩托车,机械制造/机电/重工
+job_companyname: 绵阳新晨动力机械有限公司
+job_link:        https://job.liepin.com/494_4946777/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=20&totalIdx=60&imscid=R000000071
+job_condition:   4-6万_绵阳_本科或以上_经验不限
+job_companylink: https://company.liepin.com/7918887/
+job_name:        材料核算会计
+job_title:       招聘材料核算会计
+
+job_goods:      年终奖金 专业培训 通讯补贴 交通补贴 绩效奖金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川星慧集团
+job_link:        https://job.liepin.com/492_4929545/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=21&totalIdx=61&imscid=R000000071
+job_condition:   2-3万_成都-高新区_学历不限_经验不限
+job_companylink: https://company.liepin.com/3577510/
+job_name:        会计助理
+job_title:       招聘会计助理
+
+job_goods:      带薪年假 五险一金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川一品天下置业有限公司
+job_link:        https://job.liepin.com/503_5039110/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=22&totalIdx=62&imscid=R000000071
+job_condition:   7-9万_成都_本科或以上_8年工作经验
+job_companylink: https://company.liepin.com/7931831/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      节日礼物 五险一金 包吃包住 带薪年假 
+job_companyfield:印刷/包装/造纸
+job_companyname: 安徽山鹰纸业股份有限公司
+job_link:        https://job.liepin.com/504_5043246/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=23&totalIdx=63&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7971426/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      发展空间大 带薪年假 优秀员工奖 扁平管理 岗位晋升 技能培训 团队聚餐 绩效奖金 全勤奖 年度旅游 节日礼物 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都澳乐科技有限公司
+job_link:        https://job.liepin.com/499_4990313/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=24&totalIdx=64&imscid=R000000071
+job_condition:   6-8万_成都-武侯区_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/8003355/
+job_name:        英文对账会计
+job_title:       招聘英文对账会计
+
+job_goods:      弹性工作 子女福利 五险一金 扁平管理 带薪年假 
+job_companyfield:计算机软件
+job_companyname: 西安活跃网络有限公司
+job_link:        https://job.liepin.com/460_4607362/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=25&totalIdx=65&imscid=R000000071
+job_condition:   面议_成都-锦江区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/2462669/
+job_name:        Senior AP Accountant/高级应付会计
+job_title:       招聘Senior AP Accountant/高级应付会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 五险一金 岗位晋升 技能培训 
+job_companyfield:汽车/摩托车
+job_companyname: 成都雅骏新能源汽车科技股份有限公司
+job_link:        https://job.liepin.com/474_4749038/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=26&totalIdx=66&imscid=R000000071
+job_condition:   9-10万_成都-龙泉驿_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8664737/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      公司规模大 五险一金 管理规范 技能培训 领导好 发展空间大 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 四川志云科技有限公司
+job_link:        https://job.liepin.com/484_4846354/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=27&totalIdx=67&imscid=R000000071
+job_condition:   4-5万_成都-武侯区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8686529/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      年底双薪 带薪年假 交通补助 定期体检 年度旅游 节日礼物 管理规范 五险一金 优秀员工奖 
+job_companyfield:IT服务/系统集成
+job_companyname: 成都蓝码科技发展有限公司
+job_link:        https://job.liepin.com/470_4709242/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=28&totalIdx=68&imscid=R000000071
+job_condition:   6-8万_成都-高新区_学历不限_5年工作经验
+job_companylink: https://company.liepin.com/8124684/
+job_name:        会计主管
+job_title:       招聘会计主管
+
+job_goods:      五险一金 绩效奖金 午餐补助 带薪年假 定期体检 节日礼物 
+job_companyfield:交通/物流/运输
+job_companyname: 双流县交通建设投资有限公司
+job_link:        https://job.liepin.com/477_4770004/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=29&totalIdx=69&imscid=R000000071
+job_condition:   10-12万_成都-双流县_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8580306/
+job_name:        会计主管
+job_title:       招聘会计主管
+
+job_goods:      带薪年假 交通补助 午餐补助 定期体检 年度旅游 五险一金 团队聚餐 全勤奖 优秀员工奖 绩效奖金 弹性工作 
+job_companyfield:计算机硬件/网络设备
+job_companyname: 四川泰瑞创通讯技术股份有限公司
+job_link:        https://job.liepin.com/490_4904036/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=30&totalIdx=70&imscid=R000000071
+job_condition:   4-5万_成都-锦江区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8640480/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 五险一金 技能培训 
+job_companyfield:制药/生物工程
+job_companyname: 四川科伦药业股份有限公司
+job_link:        https://job.liepin.com/504_5041134/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=31&totalIdx=71&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/7947928/
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 恒大地产集团成都有限公司
+job_link:        https://job.liepin.com/501_5016781/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=32&totalIdx=72&imscid=R000000071
+job_condition:   4-6万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/2923181/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      发展空间大 带薪年假 通讯津贴 午餐补助 定期体检 节日礼物 领导好 五险一金 管理规范 公司规模大 
+job_companyfield:房地产开发/建筑/建材/工程,新能源,农/林/牧/渔
+job_companyname: 通威集团有限公司
+job_link:        https://job.liepin.com/484_4842215/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=33&totalIdx=73&imscid=R000000071
+job_condition:   5-7万_成都-双流县_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/7900582/
+job_name:        存货会计
+job_title:       招聘存货会计
+
+job_goods:      带薪年假 五险一金 免费班车 绩效奖金 全勤奖 节日礼物 技能培训 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川天味食品集团股份有限公司
+job_link:        https://job.liepin.com/505_5051704/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=34&totalIdx=74&imscid=R000000071
+job_condition:   4-6万_成都-双流县_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8064396/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      年底双薪 带薪年假 交通补助 通讯津贴 午餐补助 年度旅游 节日礼物 优秀员工奖 
+job_companyfield:医疗设备/器械
+job_companyname: 成都威尔诺生物科技有限公司
+job_link:        https://job.liepin.com/492_4923786/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=35&totalIdx=75&imscid=R000000071
+job_condition:   3-5万_成都-高新区_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8588361/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      带薪年假 午餐补助 五险一金 生育补贴 节日礼物 
+job_companyfield:新能源
+job_companyname: 四川科陆新能电气有限公司
+job_link:        https://job.liepin.com/492_4923904/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=36&totalIdx=76&imscid=R000000071
+job_condition:   6-8万_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7937936/
+job_name:        总账会计
+job_title:       招聘总账会计
+
+job_goods:      节日礼物 技能培训 包吃包住 
+job_companyfield:航空/航天
+job_companyname: 成都鲁晨新材料科技有限公司
+job_link:        https://job.liepin.com/505_5052036/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=37&totalIdx=77&imscid=R000000071
+job_condition:   4-5万_成都-新津县_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8067435/
+job_name:        总账会计
+job_title:       招聘总账会计
+
+job_goods:      带薪年假 交通补助 通讯津贴 午餐补助 发展空间大 定期体检 弹性工作 年度旅游 五险一金 
+job_companyfield:none
+job_companyname: 四川汇维物流有限公司
+job_link:        https://job.liepin.com/434_4346497/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=38&totalIdx=78&imscid=R000000071
+job_condition:   5-7万_成都-新都区_学历不限_3年工作经验
+job_companylink: https://company.liepin.com/8077412/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      带薪年假 五险一金 包吃包住 绩效奖金 节日礼物 技能培训 通讯津贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川新力葆房地产集团有限公司
+job_link:        https://job.liepin.com/501_5016392/?ckid=a92d6f07f665295d&pageNo=1&pageIdx=39&totalIdx=79&imscid=R000000071
+job_condition:   4-5万_德阳_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/2829025/
+job_name:        物业主办会计
+job_title:       招聘物业主办会计
+
+job_goods:      发展空间大 领导好 管理规范 公司规模大 带薪年假 技能培训 岗位晋升 交通补助 定期体检 免费班车 优秀员工奖 
+job_companyfield:房地产开发/建筑/建材/工程,汽车/摩托车,交通/物流/运输
+job_companyname: 四川富临实业集团有限公司
+job_link:        https://job.liepin.com/494_4947947/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=0&totalIdx=80&imscid=R000000071
+job_condition:   7-9万_绵阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/2493884/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      包吃包住 免费班车 节日礼物 
+job_companyfield:交通/物流/运输
+job_companyname: 成都银犁冷藏物流股份有限公司
+job_link:        https://job.liepin.com/503_5034420/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=1&totalIdx=81&imscid=R000000071
+job_condition:   4-5万_成都-青白江_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7902386/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      午餐补助 领导好 发展空间大 弹性工作 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 同森集团
+job_link:        https://job.liepin.com/497_4973890/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=2&totalIdx=82&imscid=R000000071
+job_condition:   8-9万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8037969/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      五险一金 年底双薪 绩效奖金 带薪年假 弹性工作 年度旅游 节日礼物 
+job_companyfield:互联网/移动互联网/电子商务,百货/批发/零售,贸易/进出口
+job_companyname: 成都加世米国际贸易有限公司
+job_link:        https://job.liepin.com/506_5068536/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=3&totalIdx=83&imscid=R000000071
+job_condition:   5-7万_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8377404/
+job_name:        财务主管 总账会计
+job_title:       招聘财务主管 总账会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 五险一金 岗位晋升 技能培训 
+job_companyfield:汽车/摩托车
+job_companyname: 成都雅骏新能源汽车科技股份有限公司
+job_link:        https://job.liepin.com/474_4749063/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=4&totalIdx=84&imscid=R000000071
+job_condition:   9-10万_成都-龙泉驿_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8664737/
+job_name:        总账会计
+job_title:       招聘总账会计
+job_goods:none
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都尼恩网络科技有限公司
+job_link:        https://job.liepin.com/508_5081322/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=5&totalIdx=85&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8547306/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      上市公司 管理规范 带薪年假 扁平管理 五险一金 岗位晋升 定期体检 绩效奖金 交通补助 通讯津贴 午餐补助 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都龙湖地产
+job_link:        https://job.liepin.com/360_3602425/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=6&totalIdx=86&imscid=R000000071
+job_condition:   面议_成都_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8369849/
+job_name:        项目会计
+job_title:       招聘项目会计
+
+job_goods:      公司规模大 五险一金 管理规范 技能培训 通讯津贴 午餐补助 节日礼物 带薪年假 定期体检 书本津贴 优秀员工奖 领导好 发展空间大 年底双薪 绩效奖金 岗位晋升 
+job_companyfield:机械制造/机电/重工,仪器/仪表/工业自动化/电气,能源(电...
+job_companyname: 特变电工(德阳)电缆股份有限公司
+job_link:        https://job.liepin.com/491_4914728/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=7&totalIdx=87&imscid=R000000071
+job_condition:   3-5万_德阳_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/435236/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 定期体检 带薪年假 扁平管理 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川一品天下置业有限公司
+job_link:        https://job.liepin.com/511_5117683/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=8&totalIdx=88&imscid=R000000071
+job_condition:   10-15万_成都-高新区_本科或以上_6年工作经验
+job_companylink: https://company.liepin.com/7931831/
+job_name:        会计主管
+job_title:       招聘会计主管
+job_goods:none
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川金宫川派味业有限公司
+job_link:        https://job.liepin.com/502_5023615/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=9&totalIdx=89&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/6978353/
+job_name:        会计（商超方向）
+job_title:       招聘会计（商超方向）
+
+job_goods:      年底双薪 发展空间大 绩效奖金 交通补助 通讯津贴 午餐补助 节日礼物 团队聚餐 
+job_companyfield:租赁服务
+job_companyname: 成都市锦辰博达贸易有限公司
+job_link:        https://job.liepin.com/486_4862577/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=10&totalIdx=90&imscid=R000000071
+job_condition:   5-7万_成都-高新区_学历不限_5年工作经验
+job_companylink: https://company.liepin.com/8686276/
+job_name:        会计经理
+job_title:       招聘会计经理
+
+job_goods:      五险一金 弹性工作 午餐补助 绩效奖金 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都积微物联电子商务有限公司
+job_link:        https://job.liepin.com/508_5087616/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=11&totalIdx=91&imscid=R000000071
+job_condition:   6-8万_成都_学历不限_3年工作经验
+job_companylink: https://company.liepin.com/8605125/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      五险一金 绩效奖金 全勤奖 午餐补助 带薪年假 定期体检 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川省鼎粮实业有限公司
+job_link:        https://job.liepin.com/508_5081062/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=12&totalIdx=92&imscid=R000000071
+job_condition:   5-7万_成都-金牛区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8542521/
+job_name:        核算会计
+job_title:       招聘核算会计
+
+job_goods:      绩效奖金 带薪年假 交通补助 午餐补助 领导好 五险一金 岗位晋升 钱好前更好 尊重与平等 年底双薪 
+job_companyfield:网游/手游
+job_companyname: 成都尼毕鲁科技股份有限公司
+job_link:        https://job.liepin.com/489_4892025/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=13&totalIdx=93&imscid=R000000071
+job_condition:   10-18万_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/1815720/
+job_name:        参股公司会计（总账会计）
+job_title:       招聘参股公司会计（总账会计）
+
+job_goods:      五险一金 年度旅游 技能培训 午餐补助 绩效奖金 定期体检 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川新力葆房地产集团有限公司
+job_link:        https://job.liepin.com/501_5016397/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=14&totalIdx=94&imscid=R000000071
+job_condition:   7-9万_德阳_大专或以上_经验不限
+job_companylink: https://company.liepin.com/2829025/
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都佳宏集团有限公司
+job_link:        https://job.liepin.com/503_5035348/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=15&totalIdx=95&imscid=R000000071
+job_condition:   7-9万_成都-武侯区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/7907581/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      绩效奖金 管理规范 扁平管理 
+job_companyfield:规划/设计/装潢
+job_companyname: 成都市佳馨达装饰工程有限责任公司
+job_link:        https://job.liepin.com/499_4996260/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=16&totalIdx=96&imscid=R000000071
+job_condition:   6-8万_成都-锦江区_本科或以上_8年工作经验
+job_companylink: https://company.liepin.com/8062205/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 交通补助 通讯津贴 扁平管理 领导好 定期体检 年底双薪 管理规范 五险一金 公司规模大 休闲餐点 营养午餐 
+job_companyfield:其他
+job_companyname: 四川久远投资控股集团有限公司
+job_link:        https://job.liepin.com/346_3463617/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=17&totalIdx=97&imscid=R000000071
+job_condition:   6-8万_绵阳_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8091300/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      交通补助 午餐补助 带薪年假 五险一金 通讯津贴 绩效奖金 
+job_companyfield:保险
+job_companyname: 长生人寿保险有限公司
+job_link:        https://job.liepin.com/501_5017920/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=18&totalIdx=98&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/3394704/
+job_name:        财务部出纳
+job_title:       招聘财务部出纳
+
+job_goods:      发展空间大 带薪年假 交通补助 通讯津贴 午餐补助 定期体检 五险一金 技能培训 岗位晋升 管理规范 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都远大房地产开发有限责任公司
+job_link:        https://job.liepin.com/487_4877761/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=19&totalIdx=99&imscid=R000000071
+job_condition:   7-9万_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8043701/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 带薪年假 交通补助 通讯津贴 午餐补助 岗位晋升 五险一金 公司规模大 全勤奖 周末双休 
+job_companyfield:网络游戏
+job_companyname: 昊盈信息技术(成都)有限公司
+job_link:        https://job.liepin.com/490_4909575/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=20&totalIdx=100&imscid=R000000071
+job_condition:   5-6万_成都-锦江区_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8429255/
+job_name:        Accountant 会计
+job_title:       招聘Accountant 会计
+
+job_goods:      年终奖金 专业培训 通讯补贴 交通补贴 绩效奖金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川星慧集团
+job_link:        https://job.liepin.com/492_4929451/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=21&totalIdx=101&imscid=R000000071
+job_condition:   6-8万_成都-高新区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/3577510/
+job_name:        主办会计
+job_title:       招聘主办会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都北大资源地产有限公司
+job_link:        https://job.liepin.com/509_5092705/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=22&totalIdx=102&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8637544/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      午餐补助 免费班车 五险一金 
+job_companyfield:房地产服务(物业管理/地产经纪)
+job_companyname: 四川诚臣物业服务有限公司
+job_link:        https://job.liepin.com/511_5117523/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=23&totalIdx=103&imscid=R000000071
+job_condition:   5-7万_成都-新都区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8746493/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      五险一金 全勤奖 午餐补助 带薪年假 弹性工作 年度旅游 节日礼物 
+job_companyfield:规划/设计/装潢
+job_companyname: 成都丰立装饰工程有限公司
+job_link:        https://job.liepin.com/507_5072729/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=24&totalIdx=104&imscid=R000000071
+job_condition:   5-7万_成都-金牛区_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8436132/
+job_name:        诚聘出纳(本人成都房产+有成都房产担保人)
+job_title:       招聘诚聘出纳(本人成都房产+有成都房产担保人)
+
+job_goods:      股票期权 上市公司 绩效奖金 五险一金 交通补助 生育补贴 岗位晋升 外派津贴 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都网众天弘科技有限公司
+job_link:        https://job.liepin.com/377_3777281/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=25&totalIdx=105&imscid=R000000071
+job_condition:   面议_成都-武侯区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8494394/
+job_name:        会计/出纳
+job_title:       招聘会计/出纳
+
+job_goods:      带薪年假 午餐补助 定期体检 五险一金 车辆津贴 团队聚餐 股票期权 
+job_companyfield:专业服务(咨询/财会/法律/翻译等)
+job_companyname: 成都方大企业管理咨询有限公司
+job_link:        https://job.liepin.com/483_4834057/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=26&totalIdx=106&imscid=R000000071
+job_condition:   12-19万_成都-武侯区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8533742/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 交通补助 午餐补助 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 四川天地飘香投资管理有限公司
+job_link:        https://job.liepin.com/512_5123428/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=27&totalIdx=107&imscid=R000000071
+job_condition:   面议_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/5635491/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      技能培训 节日礼物 包吃包住 
+job_companyfield:航空/航天
+job_companyname: 成都鲁晨新材料科技有限公司
+job_link:        https://job.liepin.com/505_5052037/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=28&totalIdx=108&imscid=R000000071
+job_condition:   4-5万_成都-新津县_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8067435/
+job_name:        成本会计
+job_title:       招聘成本会计
+job_goods:none
+job_companyfield:计算机软件
+job_companyname: 深圳市拜特科技股份有限公司
+job_link:        https://job.liepin.com/503_5030537/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=29&totalIdx=109&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7882534/
+job_name:        运维工程师（需要财务会计经验） (职位编号：00025)
+job_title:       招聘运维工程师（需要财务会计经验） (职位编号：00025)
+job_goods:none
+job_companyfield:家具/家电
+job_companyname: 成都市润年家私有限责任公司
+job_link:        https://job.liepin.com/502_5020142/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=30&totalIdx=110&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/4673964/
+job_name:        家具成本会计/主管（QW）
+job_title:       招聘家具成本会计/主管（QW）
+
+job_goods:      五险一金 节日礼物 
+job_companyfield:制药/生物工程,医疗/保健/美容/卫生服务,医疗设备/器械
+job_companyname: 四川科伦医药贸易有限公司
+job_link:        https://job.liepin.com/509_5092572/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=31&totalIdx=111&imscid=R000000071
+job_condition:   4-6万_成都-新都区_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8636647/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 交通补助 通讯津贴 午餐补助 五险一金 节日礼物 发展空间大 
+job_companyfield:none
+job_companyname: 四川汇维物流有限公司
+job_link:        https://job.liepin.com/491_4915993/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=32&totalIdx=112&imscid=R000000071
+job_condition:   5-7万_成都-新都区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8077412/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      五险一金 包吃包住 定期体检 节日礼物 
+job_companyfield:制药/生物工程
+job_companyname: 四川科伦药业股份有限公司
+job_link:        https://job.liepin.com/504_5041136/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=33&totalIdx=113&imscid=R000000071
+job_condition:   5-7万_广安_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/7947928/
+job_name:        会计（广安科伦）
+job_title:       招聘会计（广安科伦）
+
+job_goods:      免费班车 
+job_companyfield:家具/家电
+job_companyname: 成都(台资)先驱实业有限公司
+job_link:        https://job.liepin.com/511_5110602/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=34&totalIdx=114&imscid=R000000071
+job_condition:   5-7万_成都-邛崃市_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/1998844/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      公司规模大 带薪年假 绩效奖金 年度旅游 节日礼物 技能培训 岗位晋升 五险一金 交通补助 通讯津贴 优秀员工奖 发展空间大 领导好 生育补贴 
+job_companyfield:百货/批发/零售
+job_companyname: 成都市泽南贸易有限公司
+job_link:        https://job.liepin.com/483_4830548/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=35&totalIdx=115&imscid=R000000071
+job_condition:   7-9万_成都_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/1066937/
+job_name:        预算会计
+job_title:       招聘预算会计
+
+job_goods:      发展空间大 领导好 管理规范 公司规模大 带薪年假 技能培训 岗位晋升 交通补助 定期体检 免费班车 优秀员工奖 
+job_companyfield:房地产开发/建筑/建材/工程,汽车/摩托车,交通/物流/运输
+job_companyname: 四川富临实业集团有限公司
+job_link:        https://job.liepin.com/494_4947962/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=36&totalIdx=116&imscid=R000000071
+job_condition:   7-9万_绵阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/2493884/
+job_name:        酒店会计
+job_title:       招聘酒店会计
+
+job_goods:      绩效奖金 带薪年假 午餐补助 五险一金 
+job_companyfield:其他
+job_companyname: 什邡市恒升实业有限公司
+job_link:        https://job.liepin.com/488_4888456/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=37&totalIdx=117&imscid=R000000071
+job_condition:   8-10万_德阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8639351/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      奖金/提成 通信交通补助 定期体检 节日礼物 五险一金 午餐补助 通讯津贴 
+job_companyfield:汽车/摩托车
+job_companyname: 四川野马汽车股份有限公司
+job_link:        https://job.liepin.com/347_3474242/?ckid=a92d6f07f665295d&pageNo=2&pageIdx=38&totalIdx=118&imscid=R000000071
+job_condition:   面议_成都-龙泉驿_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/2726006/
+job_name:        会计（总账会计、成本会计、项目会计）
+job_title:       招聘会计（总账会计、成本会计、项目会计）
+
+job_goods:      绩效奖金 带薪年假 交通补助 通讯津贴 午餐补助 定期体检 弹性工作 年度旅游 节日礼物 扁平管理 技能培训 五险一金 团队聚餐 生育补贴 上市公司 外派津贴 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 成都鼎兴量子投资管理有限公司
+job_link:        https://job.liepin.com/491_4911801/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=0&totalIdx=120&imscid=R000000071
+job_condition:   面议_成都_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8559062/
+job_name:        出纳（基金事务）
+job_title:       招聘出纳（基金事务）
+
+job_goods:      五险一金 定期体检 带薪年假 
+job_companyfield:机械制造/机电/重工
+job_companyname: 海瑞克(成都)隧道设备有限公司
+job_link:        https://job.liepin.com/471_4710662/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=1&totalIdx=121&imscid=R000000071
+job_condition:   3-4万_成都-龙泉驿_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/6683465/
+job_name:        出纳 Cashier
+job_title:       招聘出纳 Cashier
+
+job_goods:      年底双薪 发展空间大 绩效奖金 午餐补助 节日礼物 领导好 管理规范 技能培训 岗位晋升 团队聚餐 公司规模大 
+job_companyfield:农/林/牧/渔
+job_companyname: 四川铁骑力士实业有限公司
+job_link:        https://job.liepin.com/214_2148283/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=2&totalIdx=122&imscid=R000000071
+job_condition:   6-8万_四川省_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/3782834/
+job_name:        主办会计/会计主管
+job_title:       招聘主办会计/会计主管
+
+job_goods:      绩效奖金 带薪年假 免费班车 年度旅游 定期体检 五险一金 周末双休 岗位晋升 扁平管理 节日礼物 通讯津贴 管理规范 
+job_companyfield:石油/石化/化工
+job_companyname: 四川德赛尔化工实业有限公司
+job_link:        https://job.liepin.com/497_4973819/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=3&totalIdx=123&imscid=R000000071
+job_condition:   10-15万_德阳_硕士或以上_5年工作经验
+job_companylink: https://company.liepin.com/7944792/
+job_name:        财务会计经理
+job_title:       招聘财务会计经理
+
+job_goods:      五险一金 发展空间大 节日礼物 扁平管理 管理规范 岗位晋升 公司规模大 服装补助 优秀员工奖 
+job_companyfield:房地产开发/建筑/建材/工程,原材料及加工
+job_companyname: 柯美特建材集团有限公司
+job_link:        https://job.liepin.com/512_5126138/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=4&totalIdx=124&imscid=R000000071
+job_condition:   7-8万_眉山_本科或以上_6年工作经验
+job_companylink: https://company.liepin.com/7971938/
+job_name:        会计核算主管
+job_title:       招聘会计核算主管
+
+job_goods:      带薪年假 五险一金 节日礼物 午餐补助 
+job_companyfield:工艺品/珠宝/玩具
+job_companyname: 成都居然之家家居有限公司
+job_link:        https://job.liepin.com/504_5048350/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=5&totalIdx=125&imscid=R000000071
+job_condition:   5-7万_广元_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8023548/
+job_name:        核算会计（广元店）
+job_title:       招聘核算会计（广元店）
+
+job_goods:      发展空间大 五险一金 公司规模大 带薪年假 岗位晋升 全勤奖 领导好 管理规范 
+job_companyfield:汽车/摩托车
+job_companyname: 深圳市民富沃能新能源汽车有限公司
+job_link:        https://job.liepin.com/511_5116007/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=6&totalIdx=126&imscid=R000000071
+job_condition:   5-6万_成都-都江堰_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8472019/
+job_name:        会计（成都都江堰）急！
+job_title:       招聘会计（成都都江堰）急！
+
+job_goods:      年底双薪 带薪年假 交通补助 节日礼物 全勤奖 优秀员工奖 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 易贷网金融服务(深圳)有限公司
+job_link:        https://job.liepin.com/490_4906841/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=7&totalIdx=127&imscid=R000000071
+job_condition:   3-5万_乐山_学历不限_经验不限
+job_companylink: https://company.liepin.com/8408129/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 年度旅游 技能培训 定期体检 转正社保 团队聚餐 生育补贴 岗位晋升 绩效奖金 购买五险 发展空间大 生日津贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川日月建设集团有限公司
+job_link:        https://job.liepin.com/459_4596488/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=8&totalIdx=128&imscid=R000000071
+job_condition:   5-6万_成都-青羊区_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/1746399/
+job_name:        材料会计
+job_title:       招聘材料会计
+
+job_goods:      五险一金 通讯津贴 发展空间大 公司规模大 岗位晋升 技能培训 管理规范 
+job_companyfield:机械制造/机电/重工
+job_companyname: 成都天翔环境股份有限公司
+job_link:        https://job.liepin.com/485_4850265/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=9&totalIdx=129&imscid=R000000071
+job_condition:   4-6万_成都-青白江_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8048602/
+job_name:        （国际金融业务）会计
+job_title:       招聘（国际金融业务）会计
+
+job_goods:      绩效奖金 包吃 包住 弹性工作 管理规范 技能培训 岗位晋升 五险一金 团队聚餐 通讯津贴 交通补助 生日礼物 子女福利 车辆津贴 扁平管理 意外医疗 
+job_companyfield:规划/设计/装潢
+job_companyname: 成都鹏基装饰材料有限公司
+job_link:        https://job.liepin.com/386_3860175/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=10&totalIdx=130&imscid=R000000071
+job_condition:   面议_成都-郫县_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8521172/
+job_name:        成本会计
+job_title:       招聘成本会计
+job_goods:none
+job_companyfield:计算机软件
+job_companyname: 深圳市拜特科技股份有限公司
+job_link:        https://job.liepin.com/503_5030546/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=11&totalIdx=131&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/7882534/
+job_name:        运维工程师（需要财务会计经验）(职位编号：00025)
+job_title:       招聘运维工程师（需要财务会计经验）(职位编号：00025)
+job_goods:none
+job_companyfield:家具/家电
+job_companyname: 成都市润年家私有限责任公司
+job_link:        https://job.liepin.com/502_5020143/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=12&totalIdx=132&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/4673964/
+job_name:        综合会计(JT)
+job_title:       招聘综合会计(JT)
+
+job_goods:      年底双薪 带薪年假 午餐补助 节日礼物 免费班车 扁平管理 500强 五险一金 技能培训 岗位晋升 上市公司 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 捷普集团 JABIL
+job_link:        https://job.liepin.com/437_4379736/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=13&totalIdx=133&imscid=R000000071
+job_condition:   面议_成都-崇州市_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8554605/
+job_name:        Senior tax accountant(高级税务会计）
+job_title:       招聘Senior tax accountant(高级税务会计）
+
+job_goods:      年底双薪 带薪年假 定期体检 节日礼物 五险一金 岗位晋升 年度旅游 领导好 管理规范 技能培训 团队聚餐 
+job_companyfield:百货/批发/零售
+job_companyname: 成都市秀域健康科技有限公司
+job_link:        https://job.liepin.com/449_4496151/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=14&totalIdx=134&imscid=R000000071
+job_condition:   面议_成都-青羊区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8448147/
+job_name:        全国会计核算经理
+job_title:       招聘全国会计核算经理
+
+job_goods:      绩效奖金 带薪年假 交通补助 通讯津贴 午餐补助 定期体检 五险一金 
+job_companyfield:全部行业
+job_companyname: 新希望集团有限公司
+job_link:        https://job.liepin.com/465_4658631/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=15&totalIdx=135&imscid=R000000071
+job_condition:   面议_成都-锦江区_本科或以上_10年工作经验
+job_companylink: https://company.liepin.com/884195/
+job_name:        会计服务公司常务副总经理
+job_title:       招聘会计服务公司常务副总经理
+
+job_goods:      节日礼物 领导好 绩效奖金 定期体检 年底双薪 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 成都能通科技有限公司
+job_link:        https://job.liepin.com/500_5002229/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=16&totalIdx=136&imscid=R000000071
+job_condition:   面议_成都-武侯区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8000460/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      带薪年假 五险一金 节日礼物 技能培训 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 世豪新瑞集团
+job_link:        https://job.liepin.com/505_5054900/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=17&totalIdx=137&imscid=R000000071
+job_condition:   4-5万_成都-高新区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8109788/
+job_name:        出纳（地产）
+job_title:       招聘出纳（地产）
+
+job_goods:      发展空间大 绩效奖金 带薪年假 节日礼物 领导好 扁平管理 管理规范 岗位晋升 团队聚餐 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 成都瑞银方达股权投资基金管理股份有限公司
+job_link:        https://job.liepin.com/496_4964091/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=18&totalIdx=138&imscid=R000000071
+job_condition:   3-4万_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8635898/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      五险一金 全勤奖 交通补助 通讯津贴 带薪年假 弹性工作 节日礼物 
+job_companyfield:医疗设备/器械
+job_companyname: 成都云卫康医疗科技有限公司
+job_link:        https://job.liepin.com/508_5088661/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=19&totalIdx=139&imscid=R000000071
+job_condition:   5-7万_成都-高新区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8611637/
+job_name:        销售会计
+job_title:       招聘销售会计
+
+job_goods:      绩效奖金 带薪年假 交通补助 通讯津贴 午餐补助 定期体检 节日礼物 领导好 扁平管理 管理规范 上市公司 五险一金 岗位晋升 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都北辰置业有限公司
+job_link:        https://job.liepin.com/513_5130168/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=20&totalIdx=140&imscid=R000000071
+job_condition:   10-15万_成都-高新区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8646871/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 交通补助 通讯津贴 包吃包住 节日礼物 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077047/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=21&totalIdx=141&imscid=R000000071
+job_condition:   5-7万_成都_学历不限_经验不限
+job_companylink: https://company.liepin.com/8497120/
+job_name:        销售会计主管
+job_title:       招聘销售会计主管
+
+job_goods:      五险一金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都万科房地产有限公司
+job_link:        https://job.liepin.com/504_5047156/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=22&totalIdx=142&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8013970/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 带薪年假 绩效奖金 节日礼物 技能培训 
+job_companyfield:服装服饰/纺织/皮革
+job_companyname: 九牧王股份有限公司
+job_link:        https://job.liepin.com/502_5026401/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=23&totalIdx=143&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7859765/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 五险一金 节日礼物 绩效奖金 
+job_companyfield:制药/生物工程,医疗设备/器械
+job_companyname: 基蛋生物科技股份有限公司
+job_link:        https://job.liepin.com/507_5070045/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=24&totalIdx=144&imscid=R000000071
+job_condition:   4-5万_成都-高新区_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8399288/
+job_name:        会计（成都）
+job_title:       招聘会计（成都）
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程,仪器/仪表/工业自动化/电气
+job_companyname: 成都宁水科技有限公司
+job_link:        https://job.liepin.com/503_5037220/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=25&totalIdx=145&imscid=R000000071
+job_condition:   4-5万_成都-青羊区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7917970/
+job_name:        会计 (职位编号：NSHR-002)
+job_title:       招聘会计 (职位编号：NSHR-002)
+job_goods:none
+job_companyfield:家具/家电
+job_companyname: 成都市润年家私有限责任公司
+job_link:        https://job.liepin.com/502_5020133/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=26&totalIdx=146&imscid=R000000071
+job_condition:   4-5万_成都-新津县_大专或以上_经验不限
+job_companylink: https://company.liepin.com/4673964/
+job_name:        综合会计
+job_title:       招聘综合会计
+
+job_goods:      五险一金 交通补助 午餐补助 通讯津贴 节日礼物 
+job_companyfield:none
+job_companyname: 四川省商业集团有限公司
+job_link:        https://job.liepin.com/503_5035342/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=27&totalIdx=147&imscid=R000000071
+job_condition:   5-7万_成都-青羊区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/7907559/
+job_name:        总账会计（电商）
+job_title:       招聘总账会计（电商）
+
+job_goods:      五险一金 绩效奖金 节日礼物 技能培训 午餐补助 通讯津贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都朗诗置业有限公司
+job_link:        https://job.liepin.com/509_5093472/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=28&totalIdx=148&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8640945/
+job_name:        现场出纳
+job_title:       招聘现场出纳
+
+job_goods:      带薪年假 五险一金 技能培训 节日礼物 绩效奖金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 领地房地产集团股份有限公司
+job_link:        https://job.liepin.com/501_5010902/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=29&totalIdx=149&imscid=R000000071
+job_condition:   5-7万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/1206516/
+job_name:        物业 会计/财务主管
+job_title:       招聘物业 会计/财务主管
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都金科房地产开发有限公司
+job_link:        https://job.liepin.com/501_5014134/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=30&totalIdx=150&imscid=R000000071
+job_condition:   7-9万_成都_本科或以上_经验不限
+job_companylink: https://company.liepin.com/2131547/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 交通补助 通讯津贴 午餐补助 定期体检 年度旅游 节日礼物 免费班车 岗位晋升 技能培训 五险一金 团队聚餐 公司规模大 绩效奖金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 吉宝置业中国
+job_link:        https://job.liepin.com/493_4936024/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=31&totalIdx=151&imscid=R000000071
+job_condition:   5-7万_成都-武侯区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8599596/
+job_name:        助理会计
+job_title:       招聘助理会计
+
+job_goods:      年底双薪 带薪年假 交通补助 节日礼物 全勤奖 优秀员工奖 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 易贷网金融服务(深圳)有限公司
+job_link:        https://job.liepin.com/490_4906875/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=32&totalIdx=152&imscid=R000000071
+job_condition:   3-5万_乐山_学历不限_经验不限
+job_companylink: https://company.liepin.com/8408129/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      带薪年假 五险一金 技能培训 交通补助 午餐补助 通讯津贴 节日礼物 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 世豪新瑞集团
+job_link:        https://job.liepin.com/505_5054904/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=33&totalIdx=153&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8109788/
+job_name:        会计（商业）
+job_title:       招聘会计（商业）
+
+job_goods:      上市公司 
+job_companyfield:农/林/牧/渔
+job_companyname: 成都市新都化工股份有限公司
+job_link:        https://job.liepin.com/495_4958221/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=34&totalIdx=154&imscid=R000000071
+job_condition:   3-5万_成都_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7941032/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      领导好 带薪年假 岗位晋升 五险一金 午餐补助 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 门里集团
+job_link:        https://job.liepin.com/512_5128993/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=35&totalIdx=155&imscid=R000000071
+job_condition:   10-15万_成都_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/6982667/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 领导好 岗位晋升 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川中宏建科建设投资有限公司
+job_link:        https://job.liepin.com/486_4867701/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=36&totalIdx=156&imscid=R000000071
+job_condition:   3-5万_四川省_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8692566/
+job_name:        项目出纳
+job_title:       招聘项目出纳
+
+job_goods:      五险一金 年底双薪 绩效奖金 带薪年假 定期体检 全勤奖 优秀员工奖 生育补贴 岗位晋升 节日礼物 年度旅游 公司规模大 
+job_companyfield:计算机软件,IT服务/系统集成
+job_companyname: 成都金盘电子科大多媒体技术有限公司
+job_link:        https://job.liepin.com/430_4301556/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=37&totalIdx=157&imscid=R000000071
+job_condition:   5-6万_成都-高新西_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7903462/
+job_name:        总账会计
+job_title:       招聘总账会计
+
+job_goods:      绩效奖金 带薪年假 发展空间大 定期体检 节日礼物 管理规范 岗位晋升 五险一金 团队聚餐 优秀员工奖 技能培训 
+job_companyfield:仪器/仪表/工业自动化/电气,航空/航天,石油/石化/化工
+job_companyname: 成都桑莱特科技股份有限公司
+job_link:        https://job.liepin.com/396_3963318/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=38&totalIdx=158&imscid=R000000071
+job_condition:   4-6万_成都-武侯区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/1075948/
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:汽车/摩托车
+job_companyname: 成都嘉诚汽车销售服务有限公司
+job_link:        https://job.liepin.com/504_5044955/?ckid=a92d6f07f665295d&pageNo=3&pageIdx=39&totalIdx=159&imscid=R000000071
+job_condition:   4-5万_成都-龙泉驿_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7983506/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      五险一金 通讯津贴 
+job_companyfield:none
+job_companyname: 四川省商业集团有限公司
+job_link:        https://job.liepin.com/503_5035338/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=0&totalIdx=160&imscid=R000000071
+job_condition:   7-9万_成都_大专或以上_8年工作经验
+job_companylink: https://company.liepin.com/7907559/
+job_name:        会计（电商）
+job_title:       招聘会计（电商）
+
+job_goods:      五险一金 绩效奖金 包吃包住 午餐补助 带薪年假 
+job_companyfield:房地产开发/建筑/建材/工程,交通/物流/运输,贸易/进出口
+job_companyname: 香港心联心集团有限公司
+job_link:        https://job.liepin.com/506_5065724/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=1&totalIdx=161&imscid=R000000071
+job_condition:   5-7万_成都-青羊区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8325562/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 带薪年假 交通补助 通讯津贴 定期体检 管理规范 五险一金 技能培训 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川省晟茂建设有限公司
+job_link:        https://job.liepin.com/473_4734421/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=2&totalIdx=162&imscid=R000000071
+job_condition:   8-10万_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8001362/
+job_name:        建筑板块管理会计
+job_title:       招聘建筑板块管理会计
+
+job_goods:      发展空间大 带薪年假 通讯津贴 午餐补助 定期体检 节日礼物 领导好 五险一金 管理规范 公司规模大 
+job_companyfield:房地产开发/建筑/建材/工程,新能源,农/林/牧/渔
+job_companyname: 通威集团有限公司
+job_link:        https://job.liepin.com/484_4842234/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=3&totalIdx=163&imscid=R000000071
+job_condition:   5-7万_成都-双流县_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/7900582/
+job_name:        资产会计
+job_title:       招聘资产会计
+
+job_goods:      发展空间大 绩效奖金 带薪年假 节日礼物 领导好 扁平管理 管理规范 岗位晋升 团队聚餐 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 成都瑞银方达股权投资基金管理股份有限公司
+job_link:        https://job.liepin.com/496_4964057/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=4&totalIdx=164&imscid=R000000071
+job_condition:   4-5万_成都-高新区_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/8635898/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 带薪年假 定期体检 节日礼物 领导好 技能培训 公司规模大 五险一金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川恒信伟业投资有限公司
+job_link:        https://job.liepin.com/456_4565257/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=5&totalIdx=165&imscid=R000000071
+job_condition:   5-6万_泸州_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8122725/
+job_name:        项目主办会计
+job_title:       招聘项目主办会计
+
+job_goods:      年底双薪 带薪年假 定期体检 五险一金 全勤奖 
+job_companyfield:机械制造/机电/重工
+job_companyname: 四川蓝星机械有限公司
+job_link:        https://job.liepin.com/512_5127095/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=6&totalIdx=166&imscid=R000000071
+job_condition:   4-6万_德阳_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/8642346/
+job_name:        财务/会计助理
+job_title:       招聘财务/会计助理
+
+job_goods:      年底双薪 发展空间大 带薪年假 交通补助 通讯津贴 年度旅游 定期体检 五险一金 全勤奖 绩效奖金 
+job_companyfield:电子技术/半导体/集成电路
+job_companyname: 四川创宏电气有限公司
+job_link:        https://job.liepin.com/474_4747321/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=7&totalIdx=167&imscid=R000000071
+job_condition:   4-6万_成都-郫县_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8062440/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 节日礼物 技能培训 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都万达城投资有限公司
+job_link:        https://job.liepin.com/508_5082063/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=8&totalIdx=168&imscid=R000000071
+job_condition:   5-7万_成都_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8559162/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      发展空间大 带薪年假 交通补助 通讯津贴 定期体检 管理规范 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川省晟茂建设有限公司
+job_link:        https://job.liepin.com/473_4734348/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=9&totalIdx=169&imscid=R000000071
+job_condition:   4-6万_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8001362/
+job_name:        建筑板块项目会计
+job_title:       招聘建筑板块项目会计
+
+job_goods:      五险一金 绩效奖金 免费班车 节日礼物 技能培训 交通补助 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 金地商置集团有限公司
+job_link:        https://job.liepin.com/502_5028460/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=10&totalIdx=170&imscid=R000000071
+job_condition:   10-12万_成都-高新区_学历不限_3年工作经验
+job_companylink: https://company.liepin.com/7867927/
+job_name:        会计主管
+job_title:       招聘会计主管
+
+job_goods:      发展空间大 绩效奖金 带薪年假 领导好 岗位晋升 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川中宏建科建设投资有限公司
+job_link:        https://job.liepin.com/485_4857744/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=11&totalIdx=171&imscid=R000000071
+job_condition:   3-5万_四川省_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/8692566/
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 资阳万达广场投资有限公司
+job_link:        https://job.liepin.com/505_5052910/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=12&totalIdx=172&imscid=R000000071
+job_condition:   4-5万_资阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8077895/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      发展空间大 交通补助 年底双薪 管理规范 
+job_companyfield:百货/批发/零售
+job_companyname: 四川图腾实业有限公司
+job_link:        https://job.liepin.com/472_4721058/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=13&totalIdx=173&imscid=R000000071
+job_condition:   4-6万_广元_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7855479/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      发展空间大 绩效奖金 带薪年假 交通补助 通讯津贴 定期体检 节日礼物 免费班车 年度旅游 领导好 技能培训 岗位晋升 五险一金 团队聚餐 生育补贴 效益好 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川新蓉电缆有限责任公司
+job_link:        https://job.liepin.com/476_4760186/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=14&totalIdx=174&imscid=R000000071
+job_condition:   5-7万_成都-青羊区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/7925141/
+job_name:        税务会计
+job_title:       招聘税务会计
+
+job_goods:      绩效奖金 带薪年假 交通补助 通讯津贴 午餐补助 定期体检 年度旅游 节日礼物 扁平管理 管理规范 技能培训 岗位晋升 五险一金 团队聚餐 生育补贴 上市公司 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 保利(成都)实业有限公司
+job_link:        https://job.liepin.com/466_4660845/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=15&totalIdx=175&imscid=R000000071
+job_condition:   面议_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7907569/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      午餐补助 领导好 扁平管理 绩效奖金 带薪年假 岗位晋升 
+job_companyfield:新能源
+job_companyname: 四川万凯丰稀土新能源科技有限公司
+job_link:        https://job.liepin.com/403_4034419/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=16&totalIdx=176&imscid=R000000071
+job_condition:   10-15万_凉山_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8024952/
+job_name:        成本会计
+job_title:       招聘成本会计
+
+job_goods:      五险一金 发展空间大 绩效奖金 
+job_companyfield:none
+job_companyname: 四川峰辉绿化工程有限公司
+job_link:        https://job.liepin.com/511_5119578/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=17&totalIdx=177&imscid=R000000071
+job_condition:   3-5万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7919543/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      发展空间大 绩效奖金 带薪年假 节日礼物 免费班车 领导好 优秀员工奖 一群好玩儿的人 一群有情怀的人 我们开放真诚快乐 
+job_companyfield:none
+job_companyname: 成都银狮房地产开发有限责任公司
+job_link:        https://job.liepin.com/491_4918925/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=18&totalIdx=178&imscid=R000000071
+job_condition:   5-7万_成都-大邑县_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8026966/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 带薪年假 年度旅游 免费班车 公司规模大 定期体检 技能培训 管理规范 
+job_companyfield:制药/生物工程
+job_companyname: 四川科伦药业-新都基地
+job_link:        https://job.liepin.com/512_5128371/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=19&totalIdx=179&imscid=R000000071
+job_condition:   6-8万_成都-新都区_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8636598/
+job_name:        会计（新都基地）
+job_title:       招聘会计（新都基地）
+
+job_goods:      年底双薪 五险一金 带薪年假 定期体检 补充医疗保险 
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname: 成都九石电子商务有限公司
+job_link:        https://job.liepin.com/474_4740183/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=20&totalIdx=180&imscid=R000000071
+job_condition:   5-7万_成都-青羊区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8404476/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      专业 团结 实力型团队 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川利翔建设项目管理有限公司
+job_link:        https://job.liepin.com/434_4342884/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=21&totalIdx=181&imscid=R000000071
+job_condition:   5-7万_成都_学历不限_经验不限
+job_companylink: https://company.liepin.com/8043204/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      岗位晋升 管理规范 技能培训 团队聚餐 免费班车 节日礼物 弹性工作 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都地润置业发展有限公司
+job_link:        https://job.liepin.com/495_4959550/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=22&totalIdx=182&imscid=R000000071
+job_condition:   10-12万_成都-高新西_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/5827716/
+job_name:        主管会计
+job_title:       招聘主管会计
+
+job_goods:      管理规范 五险一金 
+job_companyfield:房地产开发/建筑/建材/工程,基金/证券/期货/投资,旅游/酒...
+job_companyname: 绵阳市投资控股(集团)有限公司
+job_link:        https://job.liepin.com/449_4498893/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=23&totalIdx=183&imscid=R000000071
+job_condition:   面议_绵阳_大专或以上_1年工作经验
+job_companylink: https://company.liepin.com/7905753/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      年底双薪 带薪年假 交通补助 节日礼物 全勤奖 优秀员工奖 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 易贷网金融服务(深圳)有限公司
+job_link:        https://job.liepin.com/490_4906876/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=24&totalIdx=184&imscid=R000000071
+job_condition:   3-5万_南充_学历不限_经验不限
+job_companylink: https://company.liepin.com/8408129/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      年底双薪 带薪年假 交通补助 节日礼物 全勤奖 优秀员工奖 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 易贷网金融服务(深圳)有限公司
+job_link:        https://job.liepin.com/490_4906842/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=25&totalIdx=185&imscid=R000000071
+job_condition:   3-5万_南充_学历不限_经验不限
+job_companylink: https://company.liepin.com/8408129/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      领导好 五险一金 生育补贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川省华城建筑有限公司
+job_link:        https://job.liepin.com/512_5127105/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=26&totalIdx=186&imscid=R000000071
+job_condition:   4-6万_乐山_学历不限_5年工作经验
+job_companylink: https://company.liepin.com/8756527/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 交通补助 定期体检 年度旅游 节日礼物 管理规范 五险一金 优秀员工奖 
+job_companyfield:IT服务/系统集成
+job_companyname: 成都蓝码科技发展有限公司
+job_link:        https://job.liepin.com/511_5119795/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=27&totalIdx=187&imscid=R000000071
+job_condition:   8-10万_成都-高新区_大专或以上_5年工作经验
+job_companylink: https://company.liepin.com/8124684/
+job_name:        会计主管
+job_title:       招聘会计主管
+
+job_goods:      包吃包住 节日礼物 交通补助 通讯津贴 
+job_companyfield:农/林/牧/渔
+job_companyname: 绵阳市勇辉生态农业股份有限公司
+job_link:        https://job.liepin.com/507_5077067/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=28&totalIdx=188&imscid=R000000071
+job_condition:   5-7万_成都_大专或以上_经验不限
+job_companylink: https://company.liepin.com/8497120/
+job_name:        上市账务主办会计
+job_title:       招聘上市账务主办会计
+
+job_goods:      发展空间大 带薪年假 岗位晋升 午餐补助 办公环境好 五险 
+job_companyfield:食品/饮料/烟酒/日化,原材料及加工,农/林/牧/渔
+job_companyname: 重庆市毛哥食品开发有限公司
+job_link:        https://job.liepin.com/496_4962062/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=29&totalIdx=189&imscid=R000000071
+job_condition:   5-7万_成都-新津县_本科或以上_2年工作经验
+job_companylink: https://company.liepin.com/7907723/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      有公积金 通讯津贴 管理规范 技能培训 领导好 定期体检 500强 午餐补助 交通补助 股票期权 节日礼物 五险一金 岗位晋升 团队聚餐 上市公司 购房津贴 
+job_companyfield:机械制造/机电/重工,仪器/仪表/工业自动化/电气,能源(电...
+job_companyname: 特变电工(德阳)电缆股份有限公司
+job_link:        https://job.liepin.com/490_4900871/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=30&totalIdx=190&imscid=R000000071
+job_condition:   10-15万_德阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/435236/
+job_name:        工程主管会计
+job_title:       招聘工程主管会计
+
+job_goods:      管理规范 五险一金 
+job_companyfield:房地产开发/建筑/建材/工程,基金/证券/期货/投资,旅游/酒...
+job_companyname: 绵阳市投资控股(集团)有限公司
+job_link:        https://job.liepin.com/449_4498873/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=31&totalIdx=191&imscid=R000000071
+job_condition:   面议_绵阳_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7905753/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      年底双薪 绩效奖金 发展空间大 带薪年假 通讯津贴 节日礼物 团队聚餐 技能培训 优秀员工奖 公司规模大 五险 交通补助 生育补贴 全勤奖 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 广东龙浩集团有限公司
+job_link:        https://job.liepin.com/486_4869403/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=32&totalIdx=192&imscid=R000000071
+job_condition:   6-8万_资阳_本科或以上_经验不限
+job_companylink: https://company.liepin.com/8534584/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 定期体检 节日礼物 管理规范 技能培训 岗位晋升 五险一金 上市公司 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都万达城投资有限公司
+job_link:        https://job.liepin.com/400_4000908/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=33&totalIdx=193&imscid=R000000071
+job_condition:   面议_四川省_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8559162/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 带薪年假 节日礼物 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都上普实业发展有限责任公司
+job_link:        https://job.liepin.com/501_5014131/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=34&totalIdx=194&imscid=R000000071
+job_condition:   4-5万_成都_本科或以上_经验不限
+job_companylink: https://company.liepin.com/2129106/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      带薪年假 技能培训 节日礼物 通讯津贴 
+job_companyfield:医疗设备/器械
+job_companyname: 上海柯渡商贸有限公司
+job_link:        https://job.liepin.com/504_5046009/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=35&totalIdx=195&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7997996/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      发展空间大 绩效奖金 带薪年假 午餐补助 定期体检 五险一金 优秀员工奖 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 倍特期货有限公司
+job_link:        https://job.liepin.com/485_4850226/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=36&totalIdx=196&imscid=R000000071
+job_condition:   3-5万_成都-高新区_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/8586749/
+job_name:        出纳行政岗
+job_title:       招聘出纳行政岗
+job_goods:none
+job_companyfield:医疗设备/器械
+job_companyname: 成都欧赛医疗器械有限公司
+job_link:        https://job.liepin.com/504_5044712/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=37&totalIdx=197&imscid=R000000071
+job_condition:   4-5万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/7981703/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      团队年轻 氛围好 发展空间大 绩效奖金 带薪年假 午餐补助 年度旅游 节日礼物 领导好 管理规范 技能培训 岗位晋升 五险一金 团队聚餐 
+job_companyfield:专业服务(咨询/财会/法律/翻译等)
+job_companyname: 成都永兴琪代理记账有限公司
+job_link:        https://job.liepin.com/491_4917749/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=38&totalIdx=198&imscid=R000000071
+job_condition:   2-4万_成都-青羊区_学历不限_经验不限
+job_companylink: https://company.liepin.com/8525878/
+job_name:        外勤会计
+job_title:       招聘外勤会计
+
+job_goods:      绩效奖金 弹性工作 技能培训 岗位晋升 团队聚餐 优秀员工奖 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都大盛建材有限公司
+job_link:        https://job.liepin.com/476_4764151/?ckid=a92d6f07f665295d&pageNo=4&pageIdx=39&totalIdx=199&imscid=R000000071
+job_condition:   4-6万_成都-武侯区_学历不限_1年工作经验
+job_companylink: https://company.liepin.com/8677104/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      五险一金 定期体检 管理规范 优秀员工奖 领导好 节日礼物 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 新盛唐集团有限公司
+job_link:        https://job.liepin.com/489_4892418/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=0&totalIdx=200&imscid=R000000071
+job_condition:   8-10万_成都-武侯区_学历不限_经验不限
+job_companylink: https://company.liepin.com/8706439/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      通讯津贴 午餐补助 交通补助 带薪年假 全勤奖 五险 岗位晋升 双休 法定节假日 
+job_companyfield:中介服务
+job_companyname: 北京佳益工程咨询有限公司成都分公司
+job_link:        https://job.liepin.com/489_4897380/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=1&totalIdx=201&imscid=R000000071
+job_condition:   6-8万_成都-锦江区_大专或以上_4年工作经验
+job_companylink: https://company.liepin.com/8529791/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 交通补助 通讯津贴 午餐补助 定期体检 年度旅游 节日礼物 免费班车 岗位晋升 技能培训 五险一金 团队聚餐 公司规模大 绩效奖金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 吉宝置业中国
+job_link:        https://job.liepin.com/500_5000743/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=2&totalIdx=202&imscid=R000000071
+job_condition:   7-9万_成都-武侯区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8599596/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 五险一金 交通补助 午餐补助 通讯津贴 技能培训 节日礼物 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 成都天合房屋开发有限责任公司
+job_link:        https://job.liepin.com/502_5023081/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=3&totalIdx=203&imscid=R000000071
+job_condition:   8-10万_成都_学历不限_经验不限
+job_companylink: https://company.liepin.com/6763568/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      带薪年假 五险一金 绩效奖金 全勤奖 节日礼物 交通补助 
+job_companyfield:贸易/进出口
+job_companyname: 四川厚德载物商贸有限公司
+job_link:        https://job.liepin.com/508_5084744/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=4&totalIdx=204&imscid=R000000071
+job_condition:   4-5万_成都_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8587579/
+job_name:        出纳员
+job_title:       招聘出纳员
+
+job_goods:      五险一金 发展空间大 
+job_companyfield:none
+job_companyname: 成都豌豆黄科技有限公司
+job_link:        https://job.liepin.com/471_4712587/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=5&totalIdx=205&imscid=R000000071
+job_condition:   4-6万_成都-高新区_大专或以上_3年工作经验
+job_companylink: https://company.liepin.com/7919972/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      绩效奖金 带薪年假 定期体检 节日礼物 生育补贴 团队聚餐 五险一金 岗位晋升 外派津贴 通讯津贴 交通补助 技能培训 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 领地房地产集团股份有限公司
+job_link:        https://job.liepin.com/453_4531661/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=6&totalIdx=206&imscid=R000000071
+job_condition:   面议_成都-高新区_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/1206516/
+job_name:        主任会计师（成都公司）
+job_title:       招聘主任会计师（成都公司）
+
+job_goods:      管理规范 五险一金 节日礼物 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 重庆卉森置业有限公司
+job_link:        https://job.liepin.com/498_4981401/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=7&totalIdx=207&imscid=R000000071
+job_condition:   5-7万_成都-温江区_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/7894945/
+job_name:        财务会计
+job_title:       招聘财务会计
+
+job_goods:      绩效奖金 上市公司 五险一金 定期体检 通讯津贴 午餐补助 带薪年假 岗位晋升 团队聚餐 购房津贴 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 新城控股集团股份有限公司
+job_link:        https://job.liepin.com/377_3770146/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=8&totalIdx=208&imscid=R000000071
+job_condition:   10-20万_成都_本科或以上_3年工作经验
+job_companylink: https://company.liepin.com/8475590/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      发展空间大 绩效奖金 年底双薪 定期体检 弹性工作 管理规范 休闲餐点 岗位晋升 年度旅游 五险一金 节日礼物 带薪年假 交通补助 通讯津贴 午餐补助 公司规模大 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 重庆卉森置业有限公司
+job_link:        https://job.liepin.com/421_4217579/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=9&totalIdx=209&imscid=R000000071
+job_condition:   4-6万_成都-温江区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/7894945/
+job_name:        会计（园林公司）
+job_title:       招聘会计（园林公司）
+
+job_goods:      五险一金 
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname: 四川多联实业有限公司
+job_link:        https://job.liepin.com/397_3974357/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=10&totalIdx=210&imscid=R000000071
+job_condition:   面议_成都-双流县_本科或以上_5年工作经验
+job_companylink: https://company.liepin.com/8173633/
+job_name:        主办会计
+job_title:       招聘主办会计
+
+job_goods:      年底双薪 带薪年假 交通补助 午餐补助 扁平管理 五险一金 绩效奖金 领导好 办公环境 发展空间大 弹性工作 岗位晋升 
+job_companyfield:网游/手游
+job_companyname: 成都尼毕鲁科技股份有限公司
+job_link:        https://job.liepin.com/513_5136094/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=11&totalIdx=211&imscid=R000000071
+job_condition:   4-7万_成都-高新区_本科或以上_1年工作经验
+job_companylink: https://company.liepin.com/1815720/
+job_name:        出纳
+job_title:       招聘出纳
+
+job_goods:      绩效奖金 年底双薪 发展空间大 带薪年假 午餐补助 弹性工作 年度旅游 五险一金 
+job_companyfield:互联网/移动互联网/电子商务
+job_companyname: 成都乐游商旅科技有限公司
+job_link:        https://job.liepin.com/513_5137278/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=12&totalIdx=212&imscid=R000000071
+job_condition:   5-8万_成都-高新区_学历不限_经验不限
+job_companylink: https://company.liepin.com/8653334/
+job_name:        会计
+job_title:       招聘会计
+
+job_goods:      绩效奖金 股票期权 交通补助 通讯津贴 午餐补助 扁平管理 领导好 团队聚餐 五险一金 岗位晋升 管理规范 优秀员工奖 发展空间大 
+job_companyfield:影视/媒体/艺术/文化/出版
+job_companyname: 成都上视文化传媒有限公司
+job_link:        https://job.liepin.com/513_5135058/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=13&totalIdx=213&imscid=R000000071
+job_condition:   2-4万_成都-青羊区_大专或以上_2年工作经验
+job_companylink: https://company.liepin.com/8276974/
+job_name:        人事行政兼出纳
+job_title:       招聘人事行政兼出纳
+
+job_goods:      外来补贴 岗位晋升 扁平管理 带薪年假 交通补助 通讯津贴 定期体检 节日礼物 车辆津贴 外派津贴 
+job_companyfield:基金/证券/期货/投资
+job_companyname: 重庆市江北区汇金小额贷款有限公司
+job_link:        https://job.liepin.com/352_3521039/?ckid=a92d6f07f665295d&pageNo=5&pageIdx=14&totalIdx=214&imscid=R000000071
+job_condition:   面议_成都_本科或以上_8年工作经验
+job_companylink: https://company.liepin.com/7902265/
+job_name:        会计组长
+job_title:       招聘会计组长
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程,房地产服务(物业管理/地产经...
+job_companyname:none
+job_link:        https://a.liepin.com/16877292/job_7585190.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=15&totalIdx=215&imscid=R000000071
+job_condition:   10-20万_成都_本科或以上_3年工作经验
+job_companylink:none
+job_name:        项目会计
+job_title:       招聘项目会计
+job_goods:none
+job_companyfield:原材料及加工,制药/生物工程
+job_companyname:none
+job_link:        https://a.liepin.com/10250649/job_7809743.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=16&totalIdx=216&imscid=R000000071
+job_condition:   15-25万_德阳_硕士或以上_3年工作经验
+job_companylink:none
+job_name:        财务会计经理
+job_title:       招聘财务会计经理
+job_goods:none
+job_companyfield:制药/生物工程,医疗/保健/美容/卫生服务
+job_companyname:none
+job_link:        https://a.liepin.com/13086928/job_7781295.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=17&totalIdx=217&imscid=R000000071
+job_condition:   10-35万_四川省_本科或以上_3年工作经验
+job_companylink:none
+job_name:        财务会计经理
+job_title:       招聘财务会计经理
+job_goods:none
+job_companyfield:制药/生物工程,医疗设备/器械
+job_companyname:none
+job_link:        https://a.liepin.com/17356673/job_7628237.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=18&totalIdx=218&imscid=R000000071
+job_condition:   10-13万_成都_本科或以上_2年工作经验
+job_companylink:none
+job_name:        助理会计师
+job_title:       招聘助理会计师
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程,规划/设计/装潢,房地产服务(...
+job_companyname:none
+job_link:        https://a.liepin.com/26894095/job_7642397.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=19&totalIdx=219&imscid=R000000071
+job_condition:   15-30万_成都_本科或以上_2年工作经验
+job_companylink:none
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程,规划/设计/装潢,房地产服务(...
+job_companyname:none
+job_link:        https://a.liepin.com/26740098/job_7639606.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=20&totalIdx=220&imscid=R000000071
+job_condition:   15-30万_成都_本科或以上_2年工作经验
+job_companylink:none
+job_name:        会计
+job_title:       招聘会计
+job_goods:none
+job_companyfield:食品/饮料/烟酒/日化
+job_companyname:none
+job_link:        https://a.liepin.com/24449031/job_7824654.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=21&totalIdx=221&imscid=R000000071
+job_condition:   10-13万_成都_大专或以上_3年工作经验
+job_companylink:none
+job_name:        会计
+job_title:       招聘 会计
+job_goods:none
+job_companyfield:互联网/移动互联网/电子商务,计算机软件,IT服务/系统集成
+job_companyname:none
+job_link:        https://a.liepin.com/7069120/job_5402317.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=22&totalIdx=222&imscid=R000000071
+job_condition:   10-20万_成都,大连,昆山_学历不限_3年工作经验
+job_companylink:none
+job_name:        高级英语总账会计
+job_title:       招聘高级英语总账会计
+job_goods:none
+job_companyfield:机械制造/机电/重工,石油/石化/化工,采掘/冶炼/矿产
+job_companyname:none
+job_link:        https://a.liepin.com/25208705/job_7785443.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=23&totalIdx=223&imscid=R000000071
+job_condition:   10-10万_德阳_学历不限_1年工作经验
+job_companylink:none
+job_name:        财务会计经理
+job_title:       招聘财务会计经理
+job_goods:none
+job_companyfield:石油/石化/化工
+job_companyname:none
+job_link:        https://a.liepin.com/1762515/job_7778509.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=24&totalIdx=224&imscid=R000000071
+job_condition:   18-20万_德阳_本科或以上_3年工作经验
+job_companylink:none
+job_name:        财务会计经理
+job_title:       招聘财务会计经理
+job_goods:none
+job_companyfield:IT服务/系统集成
+job_companyname:none
+job_link:        https://a.liepin.com/28853731/job_7704567.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=25&totalIdx=225&imscid=R000000071
+job_condition:   12-15万_成都_学历不限_5年工作经验
+job_companylink:none
+job_name:        会计经理/主管
+job_title:       招聘会计经理/主管
+job_goods:none
+job_companyfield:互联网/移动互联网/电子商务,计算机软件,IT服务/系统集成
+job_companyname:none
+job_link:        https://a.liepin.com/16129038/job_6338555.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=26&totalIdx=226&imscid=R000000071
+job_condition:   10-15万_成都,上海,大连_学历不限_1年工作经验
+job_companylink:none
+job_name:        会计/财务助理---韩语
+job_title:       招聘会计/财务助理---韩语
+job_goods:none
+job_companyfield:房地产开发/建筑/建材/工程
+job_companyname:none
+job_link:        https://a.liepin.com/2401730/job_7206131.shtml?ckid=a92d6f07f665295d&pageNo=5&pageIdx=27&totalIdx=227&imscid=R000000071
+job_condition:   10-20万_成都_学历不限_3年工作经验
+job_companylink:none
+job_name:        会计主管
+job_title:       招聘会计主管
