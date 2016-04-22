@@ -43,5 +43,5 @@ def url_open(url):
             continue
     html = response.read()
     soup = BeautifulSoup(html,"html.parser")
-    #print html
+    print html
     return soup
